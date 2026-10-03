@@ -38,9 +38,9 @@ Cloudflare account access is required to configure the project. No Cloudflare co
 
 ## Firebase Hosting alternative
 
-`firebase.json` and `.firebaserc` target the existing Firebase project. The manual **Deploy Firebase Hosting** workflow requires the repository secret `FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_ALAMIN_79C1D`, supplied through GitHub settings, never committed.
+`firebase.json` and `.firebaserc` target the existing Firebase project. Set repository variable `DEPLOY_PROVIDER=firebase` to use Firebase instead of Cloudflare. The Firebase workflow runs on every main push and requires the repository secret `FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_ALAMIN_79C1D`, supplied through GitHub settings, never committed.
 
-Firebase Hosting does not publish to the Cloudflare `pages.dev` address. Confirm the intended hosting destination before running this optional workflow. Existing database/rules are not deployed by it.
+Firebase Hosting does not publish to the Cloudflare `pages.dev` address. The default automatic deployment targets the existing Cloudflare address; selecting Firebase changes the deployment destination. Existing database/rules are not deployed by it.
 
 If a hosting domain changes, authorize that domain in Firebase Authentication and any external service allowlists. Existing live domain settings have not been altered.
 
@@ -64,3 +64,18 @@ Page modules and CSS are in `src/`, static assets in `public/`, and shared appli
 ## Verification and remaining checks
 
 `npm run check` verifies module syntax, relative imports, PWA icons and hosting configuration. `npm run build` creates the production bundle successfully. Browser visual testing of the rebuilt local site was blocked by the environment's local-address restriction. Authenticated admin writes, contact delivery and production deployment still require account access and end-to-end validation. No test messages were submitted and no live records were changed.
+
+## Automatic deployment
+
+Every push to `main` triggers **Deploy live portfolio**. It checks Cloudflare access, builds, deploys to the existing `portfolio-alamin` project's verified production branch, then checks the live commit, SPA routes, and initial JS/CSS assets. It does not create a replacement project or modify Firestore rules/data. Concurrent production releases run in order.
+
+Required repository Actions secrets:
+
+- `CLOUDFLARE_ACCOUNT_ID`: account owning the existing Pages project.
+- `CLOUDFLARE_API_TOKEN`: token scoped to that account with Cloudflare Pages Edit permission.
+
+Keep `DEPLOY_PROVIDER` unset (or `cloudflare`) for the existing pages.dev URL. Set it to `firebase` only to select Firebase Hosting; in that case supply the Firebase service account secret described above. Only the chosen provider auto-deploys.
+
+Until the credentials are configured, the workflow deliberately fails at preflight with the exact missing-secret names. A passed build alone is not a successful deployment. Secrets must be entered directly into GitHub, never committed or pasted into chat.
+
+`deployment.json` exposes only the public Git commit and build time, allowing verification that the live domain actually serves the new release. The smoke check does not claim to test Google authentication, private admin operations, or delivery of contact messages.

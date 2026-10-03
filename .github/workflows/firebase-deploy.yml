@@ -1,18 +1,32 @@
 name: Deploy Firebase Hosting
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: portfolio-production
+  cancel-in-progress: false
 jobs:
   deploy:
+    if: vars.DEPLOY_PROVIDER == 'firebase'
     runs-on: ubuntu-latest
-    environment: production
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+      - name: Check Firebase deployment credential
+        env:
+          FIREBASE_CREDENTIAL: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_ALAMIN_79C1D }}
+        run: |
+          if [ -z "$FIREBASE_CREDENTIAL" ]; then
+            echo "::error::Add FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_ALAMIN_79C1D to repository Actions secrets."
+            exit 1
+          fi
       - run: npm ci
       - run: npm run check
       - run: npm run build
@@ -21,3 +35,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_ALAMIN_79C1D }}'
           channelId: live
           projectId: portfolio-alamin-79c1d
+      - name: Verify live Firebase release
+        run: node scripts/verify-deployment.mjs https://portfolio-alamin-79c1d.web.app
