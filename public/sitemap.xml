@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage - Highest Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://portfolio-alamin-79c1d.web.app/hero.png</image:loc>
+      <image:title>Al-Amin Bin Ashad Ali - Graphic Designer & AI Expert</image:title>
+      <image:caption>Professional graphic designer and AI expert from Bangladesh</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Portfolio - High Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/portfolio</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <!-- Services - High Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/services</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  
+  <!-- Blog - High Priority for SEO -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/blog</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  
+  <!-- About - Medium Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/about</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- Contact - Medium Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/contact</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- Tools - Medium Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/tools</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- Skills - Lower Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/skills</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- Experience - Lower Priority -->
+  <url>
+    <loc>https://portfolio-alamin-79c1d.web.app/experience</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_001</loc><lastmod>2026-04-01</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_002</loc><lastmod>2026-04-02</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_003</loc><lastmod>2026-04-03</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_004</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_005</loc><lastmod>2026-04-05</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_006</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_007</loc><lastmod>2026-04-07</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_008</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_009</loc><lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_010</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_011</loc><lastmod>2026-04-11</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_012</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_013</loc><lastmod>2026-04-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_014</loc><lastmod>2026-04-14</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_015</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_016</loc><lastmod>2026-04-16</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_017</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_018</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_019</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_020</loc><lastmod>2026-04-20</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_021</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_022</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_023</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_024</loc><lastmod>2026-04-24</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_025</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_026</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_027</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_028</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_029</loc><lastmod>2026-04-29</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_030</loc><lastmod>2026-04-29</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_031</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_032</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_033</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_034</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_035</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_036</loc><lastmod>2026-04-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_037</loc><lastmod>2026-04-02</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_038</loc><lastmod>2026-04-03</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_039</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_040</loc><lastmod>2026-04-05</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_041</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_042</loc><lastmod>2026-04-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_043</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_044</loc><lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_045</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_046</loc><lastmod>2026-04-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_047</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_048</loc><lastmod>2026-04-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_049</loc><lastmod>2026-04-14</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_050</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_051</loc><lastmod>2026-04-16</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_052</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_053</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_054</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://portfolio-alamin.pages.dev/blog/blog_055</loc><lastmod>2026-04-20</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+</urlset>

@@ -1,0 +1,31 @@
+{
+  "name": "Al-Amin Bin Ashad Ali — Portfolio",
+  "short_name": "Al-Amin Portfolio",
+  "description": "Al-Amin Bin Ashad Ali — Professional Graphic Designer & AI Expert from Bangladesh. Portfolio, blog & free design tools.",
+  "start_url": "https://portfolio-alamin.pages.dev/",
+  "display": "standalone",
+  "background_color": "#060a0f",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "id": "https://portfolio-alamin.pages.dev/"
+}

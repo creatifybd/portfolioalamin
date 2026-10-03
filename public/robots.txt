@@ -1,0 +1,76 @@
+# Enhanced robots.txt for SEO optimization
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /_redirects
+Crawl-delay: 1
+
+# Google - Enhanced crawling
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /images/
+Allow: /assets/
+
+User-agent: Googlebot-News
+Allow: /
+
+# Bing/Microsoft - Enhanced crawling
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: MSNBot
+Allow: /
+Crawl-delay: 1
+
+# Social media crawlers for better sharing
+User-agent: facebookexternalhit
+Allow: /
+Allow: /blog/
+Allow: /portfolio/
+
+User-agent: Twitterbot
+Allow: /
+Allow: /blog/
+Allow: /portfolio/
+
+User-agent: LinkedInBot
+Allow: /
+Allow: /blog/
+Allow: /portfolio/
+
+User-agent: WhatsApp
+Allow: /
+
+# SEO tools and crawlers
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 2
+
+# Block unwanted bots
+User-agent: AhrefsSiteAudit
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemaps
+Sitemap: https://portfolio-alamin-79c1d.web.app/sitemap.xml
+Sitemap: https://portfolio-alamin.pages.dev/sitemap.xml
