@@ -1,0 +1,6 @@
+node_modules/
+dist/
+recovery/
+.env*
+!.env.example
+.firebase/
