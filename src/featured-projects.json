@@ -1,0 +1,678 @@
+[
+  {
+    "id": "aro-detergent",
+    "title": "Aro — Fresh Green Detergent",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-01.webp",
+    "images": [
+      "/work/homecare-01.webp"
+    ],
+    "desc": "A detergent pouch built around a bold green identity, a large Aro wordmark and a circular cleaning motif. The pack combines energetic movement with clear product recognition.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "Layered green ribbons lead the eye from the upper swirl to the brand name. A white central field separates the typography from the saturated edges, while floral imagery supports the Fresh Green variant."
+      },
+      {
+        "title": "Design details",
+        "text": "Fresh Green pouch: deep green framing, a bright central panel and a rotating green-and-gold emblem create a strong vertical hierarchy."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-01.webp",
+        "caption": "Fresh Green pouch: deep green framing, a bright central panel and a rotating green-and-gold emblem create a strong vertical hierarchy."
+      }
+    ]
+  },
+  {
+    "id": "sharo-detergent",
+    "title": "Sharo — Synthetic Detergent",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-02.webp",
+    "images": [
+      "/work/homecare-02.webp"
+    ],
+    "desc": "A violet detergent pack with an oval brand centerpiece and sweeping light trails. The composition brings the product name forward while connecting the surrounding graphics to fabric care.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "White lettering areas and luminous blue accents provide contrast against a purple foundation. Folded fabric, small bubbles and curved streaks establish a recognisable laundry context."
+      },
+      {
+        "title": "Design details",
+        "text": "Violet pouch: an oval Sharo lockup anchors the layout, with folded fabric below and curved light accents directing attention toward the center."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-02.webp",
+        "caption": "Violet pouch: an oval Sharo lockup anchors the layout, with folded fabric below and curved light accents directing attention toward the center."
+      }
+    ]
+  },
+  {
+    "id": "rio-detergent",
+    "title": "Rio — Deep Clean Detergent",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-03.webp",
+    "images": [
+      "/work/homecare-03.webp"
+    ],
+    "desc": "A bright red-and-blue detergent packaging design centered on the Rio name. An angled red banner and flowing powder illustration create a dynamic front-of-pack composition.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The red upper section and blue lower field frame a light middle zone. Oversized italic typography, a small sun symbol and floral accents give the pack an expressive retail presence."
+      },
+      {
+        "title": "Design details",
+        "text": "Rio pouch: red brand lettering sits above a diagonal product banner, with detergent granules and floral details across the blue lower panel."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-03.webp",
+        "caption": "Rio pouch: red brand lettering sits above a diagonal product banner, with detergent granules and floral details across the blue lower panel."
+      }
+    ]
+  },
+  {
+    "id": "nolive-handwash",
+    "title": "n’Olive — Hand Wash Collection",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": true,
+    "imgUrl": "/work/homecare-04.webp",
+    "images": [
+      "/work/homecare-04.webp",
+      "/work/homecare-07.webp",
+      "/work/homecare-08.webp",
+      "/work/homecare-09.webp",
+      "/work/homecare-10.webp",
+      "/work/homecare-11.webp",
+      "/work/homecare-12.webp",
+      "/work/homecare-24.webp"
+    ],
+    "desc": "A coordinated hand-wash range spanning refill pouches and pump bottles. Lavender, Ocean Blue, Gold Fresh and Apple Green use distinct colors while sharing the same n’Olive identity and centered label structure.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "A consistent brand position and white variant band hold the collection together. Botanical illustrations, liquid splashes and color-matched pumps distinguish each scent across different packaging formats."
+      },
+      {
+        "title": "Design details",
+        "text": "Lavender refill: violet tones, lavender stems and a white scent band. Ocean Blue refill: deep blue color, blue blossoms and water-inspired highlights. Gold Fresh refill: warm yellow-gold tones with citrus imagery. Apple Green refill: dark green framing with a prominent green apple. Lavender pump bottle: purple liquid, a matching pump and a compact front label. Ocean Blue pump bottle: transparent blue presentation with bubbles and floral details. Gold Fresh pump bottle: yellow liquid and pump reinforce the citrus palette. Apple Green pump bottle: green liquid, pump and apple imagery carry the refill identity into a rigid bottle."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-04.webp",
+        "caption": "Lavender refill: violet tones, lavender stems and a white scent band."
+      },
+      {
+        "src": "/work/homecare-07.webp",
+        "caption": "Ocean Blue refill: deep blue color, blue blossoms and water-inspired highlights."
+      },
+      {
+        "src": "/work/homecare-08.webp",
+        "caption": "Gold Fresh refill: warm yellow-gold tones with citrus imagery."
+      },
+      {
+        "src": "/work/homecare-09.webp",
+        "caption": "Apple Green refill: dark green framing with a prominent green apple."
+      },
+      {
+        "src": "/work/homecare-10.webp",
+        "caption": "Lavender pump bottle: purple liquid, a matching pump and a compact front label."
+      },
+      {
+        "src": "/work/homecare-11.webp",
+        "caption": "Ocean Blue pump bottle: transparent blue presentation with bubbles and floral details."
+      },
+      {
+        "src": "/work/homecare-12.webp",
+        "caption": "Gold Fresh pump bottle: yellow liquid and pump reinforce the citrus palette."
+      },
+      {
+        "src": "/work/homecare-24.webp",
+        "caption": "Apple Green pump bottle: green liquid, pump and apple imagery carry the refill identity into a rigid bottle."
+      }
+    ]
+  },
+  {
+    "id": "vix-dishwash-liquid",
+    "title": "Vix — Dishwashing Liquid",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": true,
+    "imgUrl": "/work/homecare-05.webp",
+    "images": [
+      "/work/homecare-05.webp",
+      "/work/homecare-06.webp",
+      "/work/homecare-14.webp",
+      "/work/homecare-13.webp",
+      "/work/homecare-25.webp",
+      "/work/homecare-26.webp"
+    ],
+    "desc": "A lemon-and-orange dishwashing range presented in refill pouches and shaped bottles. Bold Vix branding, Bengali product typography and citrus imagery connect the variants across formats.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "Green and orange act as immediate variant cues. Bright radial highlights and clean plate illustrations surround the central label hierarchy without changing the main brand placement."
+      },
+      {
+        "title": "Design details",
+        "text": "Lemon refill pouch: green rays, sliced lime and a metallic plate illustration. Orange refill pouch: an orange palette and citrus slice adapt the same label system. Lemon bottle: curved label graphics follow the shaped container and retain the central Bengali product name. Orange bottle: a matching orange cap and liquid complement the citrus-led label. Lemon bottle presentation: the same green variant shown against a white backdrop. Orange bottle presentation: a white-background view of the orange variant."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-05.webp",
+        "caption": "Lemon refill pouch: green rays, sliced lime and a metallic plate illustration."
+      },
+      {
+        "src": "/work/homecare-06.webp",
+        "caption": "Orange refill pouch: an orange palette and citrus slice adapt the same label system."
+      },
+      {
+        "src": "/work/homecare-14.webp",
+        "caption": "Lemon bottle: curved label graphics follow the shaped container and retain the central Bengali product name."
+      },
+      {
+        "src": "/work/homecare-13.webp",
+        "caption": "Orange bottle: a matching orange cap and liquid complement the citrus-led label."
+      },
+      {
+        "src": "/work/homecare-25.webp",
+        "caption": "Lemon bottle presentation: the same green variant shown against a white backdrop."
+      },
+      {
+        "src": "/work/homecare-26.webp",
+        "caption": "Orange bottle presentation: a white-background view of the orange variant."
+      }
+    ]
+  },
+  {
+    "id": "layzen-floor-cleaner",
+    "title": "Layzen — Floor Cleaner Labels",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-15.webp",
+    "images": [
+      "/work/homecare-15.webp",
+      "/work/homecare-16.webp"
+    ],
+    "desc": "A paired floor-cleaner packaging design with contrasting yellow-green and pink presentations. A shared label layout uses an angled wordmark, strong product title and floor-cleaning imagery.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The front panel moves from the brand at the top to the product category and cleaning illustration, ending with a compact information block. Color changes distinguish the two presentations."
+      },
+      {
+        "title": "Design details",
+        "text": "Yellow-green bottle: a green lower label and floor-cleaning illustration support the bold product title. Pink bottle: magenta color accents preserve the same structure and product hierarchy."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-15.webp",
+        "caption": "Yellow-green bottle: a green lower label and floor-cleaning illustration support the bold product title."
+      },
+      {
+        "src": "/work/homecare-16.webp",
+        "caption": "Pink bottle: magenta color accents preserve the same structure and product hierarchy."
+      }
+    ]
+  },
+  {
+    "id": "joytun-baby-detergent",
+    "title": "Joytun Baby — Detergent Packaging",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-17.webp",
+    "images": [
+      "/work/homecare-17.webp",
+      "/work/homecare-18.webp"
+    ],
+    "desc": "Two soft-color packaging presentations for Joytun Baby detergent. A large script Baby wordmark, baby photograph and rounded information badges establish a gentler visual language within the household-care range.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "Pastel pink and light blue backgrounds create two distinct treatments. The brand and product name lead the composition, while circular badges and a lower information strip organise the remaining copy."
+      },
+      {
+        "title": "Design details",
+        "text": "Pink presentation: warm pink gradients, rounded badges and a baby photograph frame the large script title. Blue presentation: a cool blue background carries the same brand structure, photograph and lower information area."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-17.webp",
+        "caption": "Pink presentation: warm pink gradients, rounded badges and a baby photograph frame the large script title."
+      },
+      {
+        "src": "/work/homecare-18.webp",
+        "caption": "Blue presentation: a cool blue background carries the same brand structure, photograph and lower information area."
+      }
+    ]
+  },
+  {
+    "id": "vix-dishwash-bars",
+    "title": "Vix — Dish Wash Bars",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-19.webp",
+    "images": [
+      "/work/homecare-19.webp",
+      "/work/homecare-20.webp"
+    ],
+    "desc": "A horizontal wrapper system for lemon and orange dish wash bars. Large Vix lettering and Bengali product text remain central, with citrus and plate imagery identifying the product at a glance.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The horizontal format uses the brand as a strong left-to-center anchor. Radiating highlights, bright citrus slices and saturated variant colors add energy while keeping the two packs visually related."
+      },
+      {
+        "title": "Design details",
+        "text": "Lemon bar: green wrapper with a citrus slice and white plate imagery. Orange bar: orange wrapper with matching citrus graphics and the same bilingual hierarchy."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-19.webp",
+        "caption": "Lemon bar: green wrapper with a citrus slice and white plate imagery."
+      },
+      {
+        "src": "/work/homecare-20.webp",
+        "caption": "Orange bar: orange wrapper with matching citrus graphics and the same bilingual hierarchy."
+      }
+    ]
+  },
+  {
+    "id": "mr-glasso-cleaner",
+    "title": "Mr. Glasso — Glass Cleaner",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-21.webp",
+    "images": [
+      "/work/homecare-21.webp",
+      "/work/homecare-22.webp"
+    ],
+    "desc": "A glass-cleaner label system presented on a trigger spray and refill bottle. Blue liquid, white label areas and reflective surface imagery create a clear connection to the cleaning category.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "Both containers retain the same red-accented wordmark and cool blue visual language. The label adapts to each bottle silhouette while maintaining recognisable brand placement."
+      },
+      {
+        "title": "Design details",
+        "text": "Trigger spray: a blue-and-white spray head above a compact front label with glass-cleaning imagery. Refill bottle: a blue screw cap and taller curved container carry the related label treatment."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-21.webp",
+        "caption": "Trigger spray: a blue-and-white spray head above a compact front label with glass-cleaning imagery."
+      },
+      {
+        "src": "/work/homecare-22.webp",
+        "caption": "Refill bottle: a blue screw cap and taller curved container carry the related label treatment."
+      }
+    ]
+  },
+  {
+    "id": "j-flush-toilet-cleaner",
+    "title": "J-Flush — Toilet Cleaner",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/homecare-23.webp",
+    "images": [
+      "/work/homecare-23.webp"
+    ],
+    "desc": "A toilet-cleaner packaging presentation using a deep blue angled-neck bottle and red cap. The front label combines a prominent product title with a lighter blue center and a dark information panel.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The label follows the tapered front of the container. Red-and-white title treatment separates the brand from the blue bottle, while the angled neck remains visually unobstructed."
+      },
+      {
+        "title": "Design details",
+        "text": "Front bottle view: blue body, red angled cap and a vertically organized label designed around the curved container."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/homecare-23.webp",
+        "caption": "Front bottle view: blue body, red angled cap and a vertically organized label designed around the curved container."
+      }
+    ]
+  },
+  {
+    "id": "orbit-nova-series",
+    "title": "Orbit Nova — HD40 & HD50",
+    "cat": "packaging",
+    "client": "Orbit Lubricants",
+    "featured": true,
+    "imgUrl": "/work/orbit-01.webp",
+    "images": [
+      "/work/orbit-01.webp",
+      "/work/orbit-02.webp",
+      "/work/orbit-09.webp",
+      "/work/orbit-12.webp",
+      "/work/orbit-13.webp"
+    ],
+    "desc": "A coordinated heavy-duty lubricant packaging family across 1L, 3L and 5L containers. Blue bottles and a repeated angular label system connect the HD40 and HD50 variants.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The white upper field prioritises the Orbit brand, Nova name and viscosity grade. Dark lower panels, truck imagery and orange accents create a consistent hierarchy across compact bottles and handled containers."
+      },
+      {
+        "title": "Design details",
+        "text": "Nova HD40 1L: a compact blue bottle with a white angled header, orange HD40 lettering and a truck image. Nova HD50 1L: the companion SAE 50 label retains the same blue-and-orange visual system. Nova HD50 3L: the label expands to a handled bottle while preserving the central name and grade hierarchy. Nova HD40 5L: a larger blue handled container with a broad white upper panel and dark truck illustration. Nova HD50 5L: the SAE 50 variant adapts the same family layout to the 5L format."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/orbit-01.webp",
+        "caption": "Nova HD40 1L: a compact blue bottle with a white angled header, orange HD40 lettering and a truck image."
+      },
+      {
+        "src": "/work/orbit-02.webp",
+        "caption": "Nova HD50 1L: the companion SAE 50 label retains the same blue-and-orange visual system."
+      },
+      {
+        "src": "/work/orbit-09.webp",
+        "caption": "Nova HD50 3L: the label expands to a handled bottle while preserving the central name and grade hierarchy."
+      },
+      {
+        "src": "/work/orbit-12.webp",
+        "caption": "Nova HD40 5L: a larger blue handled container with a broad white upper panel and dark truck illustration."
+      },
+      {
+        "src": "/work/orbit-13.webp",
+        "caption": "Nova HD50 5L: the SAE 50 variant adapts the same family layout to the 5L format."
+      }
+    ]
+  },
+  {
+    "id": "orbit-xpower-series",
+    "title": "Orbit XPower — Motorcycle Oil Range",
+    "cat": "packaging",
+    "client": "Orbit Lubricants",
+    "featured": true,
+    "imgUrl": "/work/orbit-04.webp",
+    "images": [
+      "/work/orbit-04.webp",
+      "/work/orbit-05.webp",
+      "/work/orbit-06.webp",
+      "/work/orbit-07.webp"
+    ],
+    "desc": "A four-variant motorcycle-oil label system presented on white 1L bottles. The collection uses consistent orange diagonal graphics and a motorcycle image, with viscosity grades providing the main point of differentiation.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "A restrained white background keeps the technical grade prominent. The Orbit brand, XPower name and large grade sit above the motorcycle illustration, with supporting specifications organised along the bottom."
+      },
+      {
+        "title": "Design details",
+        "text": "10W30: oversized gray grade text, orange diagonal strokes and a motorcycle illustration on a white bottle. 10W40: the grade changes within the same structured label composition. 20W40: consistent orange accents and technical information maintain family recognition. 20W50: the fourth viscosity variant completes the shared white-and-orange presentation."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/orbit-04.webp",
+        "caption": "10W30: oversized gray grade text, orange diagonal strokes and a motorcycle illustration on a white bottle."
+      },
+      {
+        "src": "/work/orbit-05.webp",
+        "caption": "10W40: the grade changes within the same structured label composition."
+      },
+      {
+        "src": "/work/orbit-06.webp",
+        "caption": "20W40: consistent orange accents and technical information maintain family recognition."
+      },
+      {
+        "src": "/work/orbit-07.webp",
+        "caption": "20W50: the fourth viscosity variant completes the shared white-and-orange presentation."
+      }
+    ]
+  },
+  {
+    "id": "orbit-revx-atf",
+    "title": "Orbit RevX — ATF DEX III",
+    "cat": "packaging",
+    "client": "Orbit Lubricants",
+    "featured": false,
+    "imgUrl": "/work/orbit-03.webp",
+    "images": [
+      "/work/orbit-03.webp"
+    ],
+    "desc": "A red 1L transmission-fluid packaging presentation. Large RevX lettering and an ATF DEX III band establish the product hierarchy above a dark automotive gear-selector image.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "White upper label space separates the Orbit brand from the red bottle. A black lower panel and diagonal transition give the technical product a distinctive appearance within the wider range."
+      },
+      {
+        "title": "Design details",
+        "text": "RevX 1L: red bottle, white brand panel, bold ATF band and a black automotive imagery field."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/orbit-03.webp",
+        "caption": "RevX 1L: red bottle, white brand panel, bold ATF band and a black automotive imagery field."
+      }
+    ]
+  },
+  {
+    "id": "orbit-boostx-cng",
+    "title": "Orbit BoostX — CNG Engine Oil",
+    "cat": "packaging",
+    "client": "Orbit Lubricants",
+    "featured": false,
+    "imgUrl": "/work/orbit-08.webp",
+    "images": [
+      "/work/orbit-08.webp"
+    ],
+    "desc": "A 2L CNG engine-oil packaging design on a gold handled container. Orange BoostX lettering and a green-and-white label connect the product name, viscosity grade and vehicle illustration.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The wide white upper field gives the brand and product name clear separation. Curved green graphics and a CNG vehicle image distinguish this application from the truck and motorcycle ranges."
+      },
+      {
+        "title": "Design details",
+        "text": "BoostX 2L: gold container with orange title, 20W50 grade, green accents and a CNG vehicle illustration."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/orbit-08.webp",
+        "caption": "BoostX 2L: gold container with orange title, 20W50 grade, green accents and a CNG vehicle illustration."
+      }
+    ]
+  },
+  {
+    "id": "orbit-supreme",
+    "title": "Orbit Supreme — Passenger Car Oil",
+    "cat": "packaging",
+    "client": "Orbit Lubricants",
+    "featured": false,
+    "imgUrl": "/work/orbit-10.webp",
+    "images": [
+      "/work/orbit-10.webp"
+    ],
+    "desc": "A 4L passenger-car oil presentation on a white handled container. Blue Supreme typography, a prominent 20W50 grade and a car illustration form the key visual hierarchy.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The white bottle supports a clean label with flowing blue graphics. The product grade sits on the left, balanced by the car image and darker blue detail area on the right."
+      },
+      {
+        "title": "Design details",
+        "text": "Supreme 4L: white container, blue-and-white label, large 20W50 grade and passenger-car imagery."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/orbit-10.webp",
+        "caption": "Supreme 4L: white container, blue-and-white label, large 20W50 grade and passenger-car imagery."
+      }
+    ]
+  },
+  {
+    "id": "orbit-elite-hde",
+    "title": "Orbit Elite HDE — 15W40",
+    "cat": "packaging",
+    "client": "Orbit Lubricants",
+    "featured": false,
+    "imgUrl": "/work/orbit-11.webp",
+    "images": [
+      "/work/orbit-11.webp"
+    ],
+    "desc": "A heavy-duty engine-oil label on a gold 5L container. Red and gray Elite HDE typography sits above a 15W40 grade and a truck illustration.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "The label uses a white upper area for identity and technical information, transitioning into a deep red lower section. Curved highlights and truck imagery add motion within the gold container silhouette."
+      },
+      {
+        "title": "Design details",
+        "text": "Elite HDE 5L: gold bottle, red-and-gray name, prominent 15W40 grade and a white truck above a red graphic base."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/orbit-11.webp",
+        "caption": "Elite HDE 5L: gold bottle, red-and-gray name, prominent 15W40 grade and a white truck above a red graphic base."
+      }
+    ]
+  },
+  {
+    "id": "orbit-optima-hde",
+    "title": "Orbit Optima HDE — 20W50",
+    "cat": "packaging",
+    "client": "Orbit Lubricants",
+    "featured": false,
+    "imgUrl": "/work/orbit-14.webp",
+    "images": [
+      "/work/orbit-14.webp"
+    ],
+    "desc": "A gold 5L heavy-duty engine-oil packaging presentation for Optima HDE. The design pairs a clear 20W50 grade with red accents, a white brand field and a truck illustration.",
+    "tech": [
+      "Packaging design",
+      "Label design",
+      "Product presentation"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "A familiar white-to-red composition connects this pack to the heavy-duty range, while the Optima name and viscosity grade distinguish the variant. The truck anchors the lower-right label area."
+      },
+      {
+        "title": "Design details",
+        "text": "Optima HDE 5L: gold handled container with a white header, red lower panel and truck-led visual composition."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/orbit-14.webp",
+        "caption": "Optima HDE 5L: gold handled container with a white header, red lower panel and truck-led visual composition."
+      }
+    ]
+  }
+]

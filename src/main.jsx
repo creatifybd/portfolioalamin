@@ -1,6 +1,8 @@
 import { f as getReact, d as getDOM } from "./vendor.js";
 import profile from "./profile.json";
 import savedProjects from "./projects.json";
+import curatedProjects from "./featured-projects.json";
+import { mergePortfolio } from "./model.js";
 import { readConfig, sendMessage } from "./api.js";
 import {
   safeUrl,
@@ -68,7 +70,10 @@ function Artwork({ src, alt, eager = false, ...props }) {
   );
 }
 function App() {
-  const [data, setData] = useState({ ...profile, portfolio: savedProjects }),
+  const [data, setData] = useState({
+      ...profile,
+      portfolio: mergePortfolio(curatedProjects, savedProjects),
+    }),
     [loadState, setLoadState] = useState("loading"),
     [path, go] = useRoute(),
     [menu, setMenu] = useState(false);
@@ -89,9 +94,12 @@ function App() {
             ...remote,
             about: { ...profile.about, ...remote.about },
             hero: { ...profile.hero, ...remote.hero },
-            portfolio: Array.isArray(remote.portfolio)
-              ? remote.portfolio
-              : savedProjects,
+            portfolio: mergePortfolio(
+              curatedProjects,
+              Array.isArray(remote.portfolio)
+                ? remote.portfolio
+                : savedProjects,
+            ),
           });
           setLoadState("ready");
         }
@@ -150,13 +158,11 @@ function App() {
       go(`/#${id}`);
     } else {
       history.replaceState({}, "", `/#${id}`);
-      document
-        .getElementById(id)
-        ?.scrollIntoView({
-          behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-            ? "instant"
-            : "smooth",
-        });
+      document.getElementById(id)?.scrollIntoView({
+        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
+      });
     }
   }
   if (path === "/admin")
@@ -896,7 +902,24 @@ function Project({ project, projects, loading, go }) {
           )}
         </div>
       </div>
-      <div className="project-gallery">
+      {project.caseStudy?.length > 0 && (
+        <section className="case-study" aria-label="Project design details">
+          {project.caseStudy.map((section, i) => (
+            <div key={i}>
+              <span className="eyebrow">0{i + 1} / Process & presentation</span>
+              <h2>{section.title}</h2>
+              <p>{section.text}</p>
+            </div>
+          ))}
+        </section>
+      )}
+      <div
+        className={
+          project.cat === "packaging"
+            ? "project-gallery packaging-gallery"
+            : "project-gallery"
+        }
+      >
         {imgs.map((img, i) => (
           <figure key={img}>
             <button
@@ -905,7 +928,10 @@ function Project({ project, projects, loading, go }) {
             >
               <Artwork
                 src={img}
-                alt={`${project.title} — image ${i + 1}`}
+                alt={
+                  project.gallery?.find((g) => g.src === img)?.caption ||
+                  `${project.title} — image ${i + 1}`
+                }
                 eager={i === 0}
               />
               <span className="gallery-expand" aria-hidden="true">
@@ -915,6 +941,9 @@ function Project({ project, projects, loading, go }) {
             <figcaption>
               {String(i + 1).padStart(2, "0")} /{" "}
               {String(imgs.length).padStart(2, "0")}
+              <span className="artwork-caption">
+                {project.gallery?.find((g) => g.src === img)?.caption}
+              </span>
             </figcaption>
           </figure>
         ))}

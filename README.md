@@ -24,3 +24,7 @@ Sign in at `/admin` using an existing authorized Google account. Add/edit projec
 Client-side admin checks are a UI convenience. Existing Firestore rules must enforce authorization; this redesign does not change database rules or permissions. Authentication, image uploads and contact delivery require live Firebase access for end-to-end verification.
 
 Blog, utilities, theme switching and unrelated dashboard features are no longer exposed. Existing backend records are preserved.
+
+## Packaging case studies
+
+`src/featured-projects.json` contains 17 curated case studies and individual captions for all 40 owner-supplied images. WebP assets in `public/work` retain the original aspect ratios and visual compositions; the source ZIPs are unchanged. Case-study descriptions discuss visible design choices, not unverified business results. Curated entries merge with live Firebase content, and saved admin overrides take precedence. Hiding a curated entry persists without deleting its source artwork.

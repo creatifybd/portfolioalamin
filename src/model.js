@@ -8,6 +8,7 @@ export const categories = {
 };
 export function safeUrl(value) {
   if (typeof value !== "string" || !value.trim()) return "";
+  if (/^\/work\/[a-z0-9-]+\.webp$/.test(value)) return value;
   try {
     const u = new URL(value);
     return ["https:", "http:"].includes(u.protocol) ? u.href : "";
@@ -51,7 +52,7 @@ export function filterProjects(items, category, query) {
 }
 export function videoEmbed(value) {
   const url = safeUrl(value);
-  if (!url) return "";
+  if (!url || url.startsWith("/")) return "";
   const u = new URL(url);
   if (
     [
@@ -74,4 +75,10 @@ export function videoEmbed(value) {
     return /^\d+$/.test(id) ? `https://player.vimeo.com/video/${id}` : "";
   }
   return "";
+}
+
+export function mergePortfolio(curated, remote) {
+  const overrides = Array.isArray(remote) ? remote : [];
+  const ids = new Set(overrides.map((p) => String(p.id)));
+  return [...curated.filter((p) => !ids.has(String(p.id))), ...overrides];
 }

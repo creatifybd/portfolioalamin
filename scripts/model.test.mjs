@@ -61,3 +61,28 @@ test("embeds only supported validated video IDs", () => {
     "https://player.vimeo.com/video/1234",
   );
 });
+
+test("curated packaging assets are complete and remain available with remote content", async () => {
+  const { mergePortfolio } = await import("../src/model.js");
+  const curated = JSON.parse(
+    readFileSync(new URL("../src/featured-projects.json", import.meta.url)),
+  );
+  assert.equal(curated.length, 17);
+  assert.equal(
+    curated.reduce((sum, p) => sum + p.images.length, 0),
+    40,
+  );
+  for (const p of curated) {
+    assert.equal(p.gallery.length, p.images.length);
+    for (const image of imagesFor(p)) {
+      assert.ok(
+        readFileSync(new URL("../public" + image, import.meta.url)).length,
+      );
+      assert.ok(p.gallery.find((g) => g.src === image)?.caption);
+    }
+  }
+  const combined = mergePortfolio(curated, [{ ...curated[0], hidden: true }]);
+  assert.equal(combined.length, 17);
+  assert.equal(visibleProjects(combined).length, 16);
+  assert.equal(mergePortfolio(curated, projects).length, 34);
+});

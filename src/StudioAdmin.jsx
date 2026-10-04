@@ -9,7 +9,8 @@ import {
   watchMessages,
   markRead,
 } from "./api.js";
-import { categories, imagesFor } from "./model.js";
+import { categories, imagesFor, mergePortfolio } from "./model.js";
+import curatedProjects from "./featured-projects.json";
 import "./studio.css";
 const React = getReact(),
   { useState, useEffect } = React;
@@ -54,7 +55,11 @@ export default function StudioAdmin() {
     let active = true;
     readConfig()
       .then((d) => {
-        if (active) setData(d);
+        if (active)
+          setData({
+            ...d,
+            portfolio: mergePortfolio(curatedProjects, d.portfolio),
+          });
       })
       .catch((e) => setNotice(`Could not load your content: ${e.message}`));
     return () => {
@@ -123,7 +128,11 @@ export default function StudioAdmin() {
       return;
     if (dirty) {
       action(async () => {
-        setData(await readConfig());
+        const fresh = await readConfig();
+        setData({
+          ...fresh,
+          portfolio: mergePortfolio(curatedProjects, fresh.portfolio),
+        });
         setDirty(false);
         setTab(next);
       });
@@ -275,12 +284,16 @@ export default function StudioAdmin() {
                         onClick={() => {
                           if (
                             confirm(
-                              `Remove “${project.title}” from the portfolio? This applies when you save.`,
+                              `Hide or remove “${project.title}” from the portfolio? Imported projects remain in the editor as hidden. This applies when you save.`,
                             )
                           ) {
                             update(
                               "portfolio",
-                              projects.filter((_, i) => i !== selected),
+                              curatedProjects.some((p) => p.id === project.id)
+                                ? projects.map((p, i) =>
+                                    i === selected ? { ...p, hidden: true } : p,
+                                  )
+                                : projects.filter((_, i) => i !== selected),
                             );
                             setSelected(0);
                           }
@@ -289,6 +302,48 @@ export default function StudioAdmin() {
                         Remove
                       </button>
                     </div>
+                    {project.caseStudy?.map((section, i) => (
+                      <div key={i}>
+                        <Field
+                          label={`Case study ${i + 1}: heading`}
+                          value={section.title}
+                          onChange={(title) =>
+                            edit({
+                              caseStudy: project.caseStudy.map((x, j) =>
+                                i === j ? { ...x, title } : x,
+                              ),
+                            })
+                          }
+                        />
+                        <Field
+                          label="Case study details"
+                          multiline
+                          value={section.text}
+                          onChange={(text) =>
+                            edit({
+                              caseStudy: project.caseStudy.map((x, j) =>
+                                i === j ? { ...x, text } : x,
+                              ),
+                            })
+                          }
+                        />
+                      </div>
+                    ))}
+                    {project.gallery?.map((item, i) => (
+                      <Field
+                        key={item.src}
+                        label={`Artwork ${i + 1} caption`}
+                        multiline
+                        value={item.caption}
+                        onChange={(caption) =>
+                          edit({
+                            gallery: project.gallery.map((x, j) =>
+                              i === j ? { ...x, caption } : x,
+                            ),
+                          })
+                        }
+                      />
+                    ))}
                     <Field
                       label="Project title"
                       value={project.title}

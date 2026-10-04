@@ -1636,3 +1636,101 @@ a.text-link:hover,
     scroll-behavior: auto !important;
   }
 }
+.case-study {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(28px, 5vw, 90px);
+  border-top: 1px solid var(--line);
+  padding: 48px 0 72px;
+}
+.case-study h2 {
+  font-size: clamp(25px, 3vw, 40px);
+  letter-spacing: -0.04em;
+  margin: 18px 0;
+}
+.case-study p {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 65ch;
+  color: var(--muted);
+}
+.project-gallery figcaption {
+  display: flex;
+  gap: 30px;
+  align-items: baseline;
+}
+.artwork-caption {
+  max-width: 78ch;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+@media (max-width: 760px) {
+  .case-study {
+    grid-template-columns: 1fr;
+    padding: 30px 0 40px;
+  }
+  .project-gallery figcaption {
+    gap: 16px;
+  }
+  .artwork-caption {
+    font-size: 13px;
+  }
+}
+.packaging-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px 28px;
+}
+.packaging-gallery figure {
+  margin: 0;
+  min-width: 0;
+}
+.packaging-gallery figure:first-child {
+  grid-column: 1/-1;
+}
+.packaging-gallery figure button {
+  background: #eeede8;
+  padding: clamp(20px, 4vw, 64px);
+  height: 620px;
+  width: 100%;
+}
+.packaging-gallery figure:first-child button {
+  height: 760px;
+  background: #e7e8e2;
+}
+.packaging-gallery figure button img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.packaging-gallery figcaption {
+  margin-top: 16px;
+  align-items: flex-start;
+}
+.packaging-gallery .artwork-caption {
+  flex: 1;
+}
+@media (max-width: 760px) {
+  .packaging-gallery {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .packaging-gallery figure button,
+  .packaging-gallery figure:first-child button {
+    height: 480px;
+    padding: 24px;
+  }
+  .packaging-gallery figure:first-child {
+    grid-column: auto;
+  }
+}
+@media (max-width: 380px) {
+  .packaging-gallery figure button,
+  .packaging-gallery figure:first-child button {
+    height: 400px;
+  }
+}
