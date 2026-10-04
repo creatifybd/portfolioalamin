@@ -1,0 +1,270 @@
+{
+  "about": {
+    "bio1": "I'm Al-Amin Bin Ashad Ali — a passionate Graphic Designer, AI Expert, and Creative Director with over 8 years of hands-on industry experience. From leading creative teams at VIVID to managing design operations at WithUs Visa Consultancy and Nazrul & Brothers Ltd, I've built a career around turning bold ideas into compelling visual stories that drive real results for clients worldwide.",
+    "bio2": "Beyond design, I'm a dedicated Computer Trainer who has empowered 150+ students with practical digital skills. I combine deep expertise in graphic design, AI-powered tools, brand identity, website design, video production, and social media marketing — delivering next-level creative solutions that help businesses stand out in competitive markets.",
+    "photoUrl": "https://i.ibb.co/5Xcnf9mm/592997003-2565949163762644-8587364915638335487-n.jpg",
+    "tags": [
+      "Graphic Design",
+      "AI Expert",
+      "Brand Identity",
+      "Website Design",
+      "Video Editing",
+      "Social Media Marketing",
+      "Computer Trainer",
+      "Creative Direction",
+      "Facebook Page Management"
+    ]
+  },
+  "experience": [
+    {
+      "id": "e1",
+      "role": "Executive - Graphic Design",
+      "company": "Nazrul & Brothers Ltd",
+      "period": "2026 – Present",
+      "desc": "Leading all graphic design operations including brand visual development, website design, and Facebook page management. Responsible for creating high-impact marketing materials and maintaining consistent brand identity across all digital and print platforms.",
+      "tags": [
+        "Graphic Design",
+        "Website Design",
+        "Facebook Page Management",
+        "Social Media Marketing"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "e2",
+      "role": "Senior Documentation Executive",
+      "company": "WithUs Visa Consultancy",
+      "period": "2024 – 2026",
+      "desc": "Led and supervised the entire documentation team, overseeing end-to-end documentation processes for visa consultancy services. Designed all client-facing marketing materials, managed social media creative assets, and played a key role in establishing the brand's professional visual identity.",
+      "tags": [
+        "Documentation",
+        "Team Lead",
+        "Graphic Design",
+        "Social Media Marketing"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "e3",
+      "role": "Creative Director",
+      "company": "VIVID",
+      "period": "2019 – 2024",
+      "desc": "Spearheaded all creative and marketing initiatives as Creative Director over a 5-year tenure. Built and managed a high-performing creative team, developed comprehensive brand guidelines for diverse clients, designed promotional materials across print and digital media, and drove the agency's creative vision from concept to execution.",
+      "tags": [
+        "Creative Direction",
+        "Branding",
+        "Team Management",
+        "Marketing",
+        "Graphic Design"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "e4",
+      "role": "Computer Trainer & Digital Skills Educator",
+      "company": "Self-Employed / Freelance",
+      "period": "2019 – Present",
+      "desc": "Trained 150+ students in practical computer skills, graphic design fundamentals, digital marketing, and AI tools. Passionate about empowering the next generation of digital professionals through hands-on, result-oriented training programs.",
+      "tags": [
+        "Computer Training",
+        "Graphic Design Education",
+        "Digital Skills",
+        "AI Tools"
+      ],
+      "hidden": false
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "degree": "BBA (Accounting)",
+      "institution": "Hazi Misir Ali University",
+      "period": "2020 – 2021 Session",
+      "grade": "",
+      "hidden": false
+    },
+    {
+      "id": "edu2",
+      "degree": "HSC — Business Studies",
+      "institution": "Govt. Tolaram College",
+      "period": "2020",
+      "grade": "GPA 4.17",
+      "hidden": false
+    },
+    {
+      "id": "edu3",
+      "degree": "SSC — Business Studies",
+      "institution": "Joygobinda High School",
+      "period": "2018",
+      "grade": "GPA 4.00",
+      "hidden": false
+    }
+  ],
+  "skills": [
+    {
+      "id": "sk1",
+      "name": "Adobe Illustrator",
+      "pct": 95,
+      "cat": "design"
+    },
+    {
+      "id": "sk2",
+      "name": "Adobe Photoshop",
+      "pct": 92,
+      "cat": "design"
+    },
+    {
+      "id": "sk3",
+      "name": "Canva Pro",
+      "pct": 98,
+      "cat": "design"
+    },
+    {
+      "id": "sk4",
+      "name": "Figma",
+      "pct": 82,
+      "cat": "design"
+    },
+    {
+      "id": "sk5",
+      "name": "AI Image Generation (Midjourney / DALL-E)",
+      "pct": 90,
+      "cat": "ai"
+    },
+    {
+      "id": "sk6",
+      "name": "ChatGPT & AI Prompt Engineering",
+      "pct": 95,
+      "cat": "ai"
+    },
+    {
+      "id": "sk7",
+      "name": "Stable Diffusion & ComfyUI",
+      "pct": 78,
+      "cat": "ai"
+    },
+    {
+      "id": "sk8",
+      "name": "MS Office Suite",
+      "pct": 95,
+      "cat": "office"
+    },
+    {
+      "id": "sk9",
+      "name": "Documentation Management",
+      "pct": 97,
+      "cat": "office"
+    },
+    {
+      "id": "sk10",
+      "name": "Team Leadership",
+      "pct": 88,
+      "cat": "soft"
+    },
+    {
+      "id": "sk11",
+      "name": "Client Communication",
+      "pct": 92,
+      "cat": "soft"
+    },
+    {
+      "id": "sk12",
+      "name": "Computer Training",
+      "pct": 93,
+      "cat": "soft"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "title": "Graphic Design & Visual Communication",
+      "institute": "Self-Taught — Online Research & Practice",
+      "period": "2018 – Present",
+      "cert": "Self-Certified",
+      "desc": "Mastered Adobe Illustrator, Photoshop, and Canva Pro through extensive online research, tutorials, and hands-on practice. Developed expertise in logo design, brand identity, typography, color theory, and social media graphics.",
+      "tags": [
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Canva Pro",
+        "Logo Design",
+        "Typography",
+        "Color Theory"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "c2",
+      "title": "Website Design & UI/UX",
+      "institute": "Self-Taught — Online Research & Practice",
+      "period": "2020 – Present",
+      "cert": "Self-Certified",
+      "desc": "Learned modern web design principles, UI/UX fundamentals, and responsive design through online research, YouTube tutorials, and real-world project experience. Skilled in creating pixel-perfect, conversion-focused web layouts.",
+      "tags": [
+        "UI/UX Design",
+        "Responsive Design",
+        "Figma",
+        "Web Layouts",
+        "Landing Pages"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "c3",
+      "title": "MS Office Suite — Advanced",
+      "institute": "Self-Taught — Online Research & Practice",
+      "period": "2017 – Present",
+      "cert": "Self-Certified",
+      "desc": "Acquired advanced proficiency in Microsoft Word, Excel, and PowerPoint through online resources and practical application in professional documentation, data management, and presentations.",
+      "tags": [
+        "MS Word",
+        "MS Excel",
+        "MS PowerPoint",
+        "Documentation",
+        "Data Management"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "c4",
+      "title": "AI Tools & Prompt Engineering",
+      "institute": "Self-Taught — Online Research & Practice",
+      "period": "2022 – Present",
+      "cert": "Self-Certified",
+      "desc": "Developed deep expertise in AI-powered creative tools through continuous online research and experimentation. Proficient in Midjourney, DALL-E, Stable Diffusion, ChatGPT, and AI prompt engineering for design workflows.",
+      "tags": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion",
+        "ChatGPT",
+        "Prompt Engineering",
+        "AI Workflows"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "c5",
+      "title": "Social Media Marketing & Facebook Ads",
+      "institute": "Self-Taught — Online Research & Practice",
+      "period": "2019 – Present",
+      "cert": "Self-Certified",
+      "desc": "Learned social media marketing strategies, Facebook page management, content planning, and digital advertising through extensive online research and real-world client projects.",
+      "tags": [
+        "Facebook Marketing",
+        "Social Media Strategy",
+        "Content Planning",
+        "Page Management"
+      ],
+      "hidden": false
+    }
+  ],
+  "social": {
+    "fb": "https://www.facebook.com/binashad7",
+    "li": "https://www.linkedin.com/in/binadhad7/",
+    "ig": "https://www.instagram.com/binashad7",
+    "wa": "+8801731186929"
+  },
+  "hero": {
+    "photoUrl": "https://i.ibb.co/5Xcnf9mm/592997003-2565949163762644-8587364915638335487-n.jpg",
+    "cvLink": ""
+  }
+}

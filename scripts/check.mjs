@@ -2,9 +2,9 @@ import { readdir, readFile, access } from "node:fs/promises";
 import { resolve, dirname } from "node:path";
 import { execFileSync } from "node:child_process";
 for (const file of await readdir("src")) {
-  if (!file.endsWith(".js")) continue;
+  if (!/\.jsx?$/.test(file)) continue;
   const path = resolve("src", file);
-  execFileSync(process.execPath, ["--check", path]);
+  if (file.endsWith(".js")) execFileSync(process.execPath, ["--check", path]);
   const text = await readFile(path, "utf8");
   for (const match of text.matchAll(
     /(?:from\s*|import\s*\(?\s*)["'`](\.\.?\/[^"'`]+)["'`]/g,
@@ -19,3 +19,7 @@ if (firebase.hosting.public !== "dist") throw Error("Hosting must use dist");
 console.log(
   "JavaScript syntax, local imports, PWA icons and hosting configuration passed.",
 );
+
+execFileSync(process.execPath, ["--test", "scripts/model.test.mjs"], {
+  stdio: "inherit",
+});
