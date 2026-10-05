@@ -67,9 +67,11 @@ test("curated packaging assets are complete and remain available with remote con
   const curated = JSON.parse(
     readFileSync(new URL("../src/featured-projects.json", import.meta.url)),
   );
-  assert.equal(curated.length, 17);
+  assert.equal(curated.length, 20);
   assert.equal(
-    curated.reduce((sum, p) => sum + p.images.length, 0),
+    curated
+      .filter((p) => p.cat === "packaging")
+      .reduce((sum, p) => sum + p.images.length, 0),
     40,
   );
   for (const p of curated) {
@@ -82,7 +84,38 @@ test("curated packaging assets are complete and remain available with remote con
     }
   }
   const combined = mergePortfolio(curated, [{ ...curated[0], hidden: true }]);
-  assert.equal(combined.length, 17);
-  assert.equal(visibleProjects(combined).length, 16);
-  assert.equal(mergePortfolio(curated, projects).length, 34);
+  assert.equal(combined.length, 20);
+  assert.equal(visibleProjects(combined).length, 19);
+  assert.equal(mergePortfolio(curated, projects).length, 37);
+});
+
+test("legacy profile migration corrects identity and preserves subsequent admin changes", async () => {
+  const { migrateProfile } = await import("../src/profile-migration.js");
+  const old = {
+    experience: [
+      { company: "VIVID", role: "Creative Director" },
+      { company: "Self-Employed", role: "Computer Trainer" },
+      {
+        company: "WithUs Visa Consultancy",
+        role: "Senior Documentation Executive",
+      },
+      { company: "Nazrul & Brothers Ltd", role: "Executive - Graphic Design" },
+    ],
+    about: { bio1: "Old name", photoUrl: "https://example.com/photo.jpg" },
+    skills: [{ name: "Computer Training" }, { name: "Adobe Photoshop" }],
+  };
+  const profile = JSON.parse(readFileSync(new URL("../src/profile.json", import.meta.url)));
+  const upgraded = migrateProfile(old, profile);
+  assert.deepEqual(
+    upgraded.experience.map((x) => x.company),
+    ["NAZRUL & BROTHERS", "WithUs Visa Consultancy", "VIVID"],
+  );
+  assert.match(upgraded.about.bio1, /MD\. AL-AMIN ALI/);
+  assert.equal(upgraded.about.photoUrl, old.about.photoUrl);
+  assert.deepEqual(upgraded.skills, [{ name: "Adobe Photoshop" }]);
+  const edited = {
+    ...upgraded,
+    about: { ...upgraded.about, bio1: "A new biography" },
+  };
+  assert.deepEqual(migrateProfile(edited, profile), edited);
 });

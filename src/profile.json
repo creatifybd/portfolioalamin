@@ -1,7 +1,7 @@
 {
   "about": {
-    "bio1": "I'm Al-Amin Bin Ashad Ali — a passionate Graphic Designer, AI Expert, and Creative Director with over 8 years of hands-on industry experience. From leading creative teams at VIVID to managing design operations at WithUs Visa Consultancy and Nazrul & Brothers Ltd, I've built a career around turning bold ideas into compelling visual stories that drive real results for clients worldwide.",
-    "bio2": "Beyond design, I'm a dedicated Computer Trainer who has empowered 150+ students with practical digital skills. I combine deep expertise in graphic design, AI-powered tools, brand identity, website design, video production, and social media marketing — delivering next-level creative solutions that help businesses stand out in competitive markets.",
+    "bio1": "I'm MD. AL-AMIN ALI — a graphic designer, website developer and AI artist based in Narayanganj, Bangladesh. My work spans brand identities, packaging, visual communication and digital experiences.",
+    "bio2": "My experience includes creative and design roles at Nazrul & Brothers, WithUs Visa Consultancy and VIVID. I bring graphic design, website development, AI-assisted creativity and social media content together to build a consistent visual presence across print and digital.",
     "photoUrl": "https://i.ibb.co/5Xcnf9mm/592997003-2565949163762644-8587364915638335487-n.jpg",
     "tags": [
       "Graphic Design",
@@ -10,7 +10,6 @@
       "Website Design",
       "Video Editing",
       "Social Media Marketing",
-      "Computer Trainer",
       "Creative Direction",
       "Facebook Page Management"
     ]
@@ -19,7 +18,7 @@
     {
       "id": "e1",
       "role": "Executive - Graphic Design",
-      "company": "Nazrul & Brothers Ltd",
+      "company": "NAZRUL & BROTHERS",
       "period": "2026 – Present",
       "desc": "Leading all graphic design operations including brand visual development, website design, and Facebook page management. Responsible for creating high-impact marketing materials and maintaining consistent brand identity across all digital and print platforms.",
       "tags": [
@@ -56,20 +55,6 @@
         "Team Management",
         "Marketing",
         "Graphic Design"
-      ],
-      "hidden": false
-    },
-    {
-      "id": "e4",
-      "role": "Computer Trainer & Digital Skills Educator",
-      "company": "Self-Employed / Freelance",
-      "period": "2019 – Present",
-      "desc": "Trained 150+ students in practical computer skills, graphic design fundamentals, digital marketing, and AI tools. Passionate about empowering the next generation of digital professionals through hands-on, result-oriented training programs.",
-      "tags": [
-        "Computer Training",
-        "Graphic Design Education",
-        "Digital Skills",
-        "AI Tools"
       ],
       "hidden": false
     }
@@ -165,12 +150,6 @@
       "id": "sk11",
       "name": "Client Communication",
       "pct": 92,
-      "cat": "soft"
-    },
-    {
-      "id": "sk12",
-      "name": "Computer Training",
-      "pct": 93,
       "cat": "soft"
     }
   ],

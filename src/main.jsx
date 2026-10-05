@@ -16,7 +16,7 @@ import "./portfolio.css";
 const React = getReact();
 const { useState, useEffect, useRef, Suspense, lazy } = React;
 const Admin = lazy(() => import("./StudioAdmin.jsx"));
-const NAME = "Al-Amin Bin Ashad Ali",
+const NAME = "MD. AL-AMIN ALI",
   EMAIL = "binashad7@gmail.com";
 function Arrow({ diagonal = false, ...props }) {
   return (
@@ -109,6 +109,29 @@ function App() {
       active = false;
     };
   }, []);
+  useEffect(() => {
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-revealed");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.08 },
+    );
+    document
+      .querySelectorAll(
+        ".project-card, .background-grid, .expertise-row, .case-study > div",
+      )
+      .forEach((el) => {
+        el.classList.add("reveal-ready");
+        observer.observe(el);
+      });
+    return () => observer.disconnect();
+  }, [path, data]);
   useEffect(() => {
     document.body.classList.toggle("menu-open", menu);
     return () => document.body.classList.remove("menu-open");
@@ -209,8 +232,8 @@ function App() {
           aria-label="Main navigation"
         >
           {[
-            ["work", "Work"],
             ["about", "About"],
+            ["work", "Work"],
             ["expertise", "Expertise"],
             ["contact", "Contact"],
           ].map(([id, label]) => (
@@ -261,9 +284,8 @@ function App() {
           />
         ) : (
           <>
-            <Hero data={data} projects={projects} go={go} section={section} />
-            <Work projects={projects} go={go} loadState={loadState} />
             <About data={data} />
+            <Work projects={projects} go={go} loadState={loadState} />
             <Expertise data={data} />
             <Contact />
           </>
@@ -296,91 +318,6 @@ function App() {
     </>
   );
 }
-function Hero({ data, projects, go, section }) {
-  const spotlight =
-    projects.find((p) => p.featured && imagesFor(p).length) ||
-    projects.find((p) => p.cat === "branding") ||
-    projects[0];
-  return (
-    <section className="hero">
-      <div className="hero-meta">
-        <span className="eyebrow">Independent creative portfolio</span>
-        <span className="location">
-          Narayanganj, Bangladesh <span className="status-dot" />
-        </span>
-      </div>
-      <div className="hero-title">
-        <h1>
-          Graphic designer
-          <span className="title-second">
-            <span className="ampersand">&</span> web developer
-            <span className="period">.</span>
-          </span>
-        </h1>
-        <span className="hero-star" aria-hidden="true">
-          ✳
-        </span>
-      </div>
-      <div className="hero-bottom">
-        <div className="hero-intro">
-          <span className="eyebrow">Al-Amin Bin Ashad Ali</span>
-          <p>
-            Brand identity. Graphic design.
-            <br />
-            Digital experiences.
-          </p>
-          <a
-            className="text-link"
-            href="#work"
-            onClick={(e) => section(e, "work")}
-          >
-            Explore my work <Arrow />
-          </a>
-        </div>
-        {spotlight && (
-          <a
-            className="hero-preview"
-            href={`/project/${encodeURIComponent(spotlight.id)}`}
-            onClick={(e) => {
-              e.preventDefault();
-              go(`/project/${encodeURIComponent(spotlight.id)}`);
-            }}
-          >
-            <div className="preview-art">
-              <Artwork
-                src={imagesFor(spotlight)[0]}
-                alt={spotlight.title}
-                eager
-              />
-            </div>
-            <span>
-              <small>In the portfolio</small>
-              {spotlight.title}
-            </span>
-            <Arrow diagonal />
-          </a>
-        )}
-        <a
-          className="scroll-cue"
-          href="#work"
-          onClick={(e) => section(e, "work")}
-          aria-label="Scroll to portfolio"
-        >
-          ↓
-        </a>
-      </div>
-      <div className="discipline-strip" aria-hidden="true">
-        <span>Brand identity</span>
-        <b>✳</b>
-        <span>Graphic design</span>
-        <b>✳</b>
-        <span>Web development</span>
-        <b>✳</b>
-        <span>AI artwork</span>
-      </div>
-    </section>
-  );
-}
 function Work({ projects, go, loadState }) {
   const [category, setCategory] = useState("all"),
     [query, setQuery] = useState("");
@@ -392,7 +329,7 @@ function Work({ projects, go, loadState }) {
   return (
     <section id="work" className="work section-wrap">
       <div className="section-top">
-        <span className="eyebrow">01 / Portfolio</span>
+        <span className="eyebrow">02 / Portfolio</span>
         <span className="eyebrow">
           {String(projects.length).padStart(2, "0")} projects
         </span>
@@ -463,7 +400,7 @@ function Work({ projects, go, loadState }) {
       <div className="project-grid">
         {ordered.map((p, i) => (
           <a
-            className={`project-card card-${i % 4}`}
+            className={`project-card card-${i % 4} ${p.cat === "web" ? "web-card" : ""}`}
             href={`/project/${encodeURIComponent(p.id)}`}
             key={p.id}
             onClick={(e) => {
@@ -472,6 +409,17 @@ function Work({ projects, go, loadState }) {
             }}
           >
             <div className="project-art">
+              {p.cat === "web" && (
+                <div className="browser-bar">
+                  <span>● ● ●</span>
+                  <small>
+                    {safeUrl(p.siteUrl)
+                      ? new URL(safeUrl(p.siteUrl)).hostname
+                      : "Website project"}
+                  </small>
+                  <span>↗</span>
+                </div>
+              )}
               <Artwork src={imagesFor(p)[0]} alt={p.title} eager={i < 2} />
               <span className="project-index">
                 {String(i + 1).padStart(2, "0")}
@@ -530,29 +478,37 @@ function About({ data }) {
   return (
     <section id="about" className="about section-wrap">
       <div className="section-top">
-        <span className="eyebrow">02 / The person behind the work</span>
+        <span className="eyebrow">01 / About me</span>
         <span className="eyebrow">Designer · Developer · AI artist</span>
       </div>
       <div className="about-grid">
         <div className="portrait-wrap">
-          <Artwork src={photo} alt={NAME} />
+          <Artwork src={photo} alt={NAME} eager />
           <div className="portrait-label">
             <span>Al-Amin</span>
             <span>Bangladesh ↗</span>
           </div>
         </div>
         <div className="about-copy">
-          <h2>
-            Al-Amin
+          <p className="intro-role eyebrow">
+            Graphic designer &amp; website developer
+          </p>
+          <h1>
+            MD. AL-AMIN
             <br />
-            <span>Bin Ashad Ali.</span>
-          </h2>
+            <span>
+              ALI<span className="blue">.</span>
+            </span>
+          </h1>
           <p className="bio-lead">
             {about.bio1 ||
               "Graphic designer, website developer and AI artist based in Bangladesh."}
           </p>
           {about.bio2 && <p>{about.bio2}</p>}
           <div className="about-links">
+            <a className="button solid" href="#work">
+              Explore my work <Arrow diagonal />
+            </a>
             {safeUrl(data.hero?.cvLink) && (
               <a
                 className="button"

@@ -1,3 +1,5 @@
+import profile from "./profile.json";
+import { migrateProfile } from "./profile-migration.js";
 import {
   C as initFirestore,
   T as initHelpers,
@@ -49,12 +51,27 @@ export async function login() {
 export const logout = () => signOut(auth);
 export async function readConfig() {
   const result = await getDoc(doc(db, "site", "config"));
-  return result.exists() ? result.data() : {};
+  return migrateProfile(result.exists() ? result.data() : {}, profile);
 }
 export async function saveConfig(patch) {
   if (!allowed(auth.currentUser))
     throw Error("Sign in with an authorized account.");
-  await setDoc(doc(db, "site", "config"), patch, { merge: true });
+  const current = await getDoc(doc(db, "site", "config"));
+  const raw = current.exists() ? current.data() : {};
+  const migrated = migrateProfile(raw, profile);
+  const migration =
+    raw.profileRevision >= 2
+      ? {}
+      : {
+          about: migrated.about,
+          experience: migrated.experience,
+          skills: migrated.skills,
+        };
+  await setDoc(
+    doc(db, "site", "config"),
+    { ...migration, ...patch, profileRevision: 2 },
+    { merge: true },
+  );
 }
 export async function sendMessage(form) {
   if (form.website) return;

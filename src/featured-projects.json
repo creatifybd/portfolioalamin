@@ -1,5 +1,110 @@
 [
   {
+    "id": "joytun-website",
+    "title": "Joytun Chemicals — Corporate Website",
+    "client": "Joytun Chemical Industries OPC",
+    "cat": "web",
+    "siteUrl": "https://www.joytunchemicals.com/",
+    "showLiveBtn": true,
+    "featured": true,
+    "imgUrl": "/work/website-joytun.webp",
+    "images": [
+      "/work/website-joytun.webp"
+    ],
+    "desc": "A home and personal care website that connects everyday lifestyle imagery with a structured product collection. The interface gives the Joytun range a calm, approachable digital presence.",
+    "tech": [
+      "Website design",
+      "Website development",
+      "UI / UX"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "Warm ivory surfaces, olive accents and generous spacing support a welcoming brand experience. A large lifestyle hero introduces the company before visitors explore care categories and individual products."
+      },
+      {
+        "title": "Website experience",
+        "text": "The experience connects laundry, hand, kitchen, floor, glass and bathroom care through category navigation. Product pages, company information and distribution enquiries give the collection a clear route from discovery to contact."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/website-joytun.webp",
+        "caption": "Live homepage of Joytun Chemical Industries OPC — website design and development by MD. AL-AMIN ALI."
+      }
+    ]
+  },
+  {
+    "id": "orbit-website",
+    "title": "Orbit Lubricants — Product Website",
+    "client": "Orbit Lubricant Industries",
+    "cat": "web",
+    "siteUrl": "https://www.orbit-lubricants.com/",
+    "showLiveBtn": true,
+    "featured": true,
+    "imgUrl": "/work/website-orbit.webp",
+    "images": [
+      "/work/website-orbit.webp"
+    ],
+    "desc": "An automotive and heavy-duty lubricant website built around product discovery, application groups and clear specification information.",
+    "tech": [
+      "Website design",
+      "Website development",
+      "UI / UX"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "Dark navy, industrial photography and orange highlights establish the Orbit identity. Prominent typography and a structured catalogue connect brand presentation with practical product information."
+      },
+      {
+        "title": "Website experience",
+        "text": "The homepage groups products by motorcycle, passenger car, CNG, heavy-duty diesel, transmission and monograde applications. Product specifications, a lubricant finder and sales enquiry routes support visitors looking for the appropriate range."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/website-orbit.webp",
+        "caption": "Live homepage of Orbit Lubricant Industries — website design and development by MD. AL-AMIN ALI."
+      }
+    ]
+  },
+  {
+    "id": "creatifybd-website",
+    "title": "CreatifyBD — Creative Agency Website",
+    "client": "CreatifyBD",
+    "cat": "web",
+    "siteUrl": "https://creatifybd.com/",
+    "showLiveBtn": true,
+    "featured": true,
+    "imgUrl": "/work/website-creatifybd.webp",
+    "images": [
+      "/work/website-creatifybd.webp"
+    ],
+    "desc": "A creative agency website bringing services, work samples, packages and project enquiries into one connected digital experience.",
+    "tech": [
+      "Website design",
+      "Website development",
+      "UI / UX"
+    ],
+    "caseStudy": [
+      {
+        "title": "Visual direction",
+        "text": "A white canvas, red accents and strong typography frame the agency services. Creative imagery and work galleries give visitors a visual introduction before they explore individual offerings."
+      },
+      {
+        "title": "Website experience",
+        "text": "Service pages cover graphic design, video, social media and website work. The portfolio, pricing and contact pathways organise the journey from browsing creative capabilities to discussing a project."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/website-creatifybd.webp",
+        "caption": "Live homepage of CreatifyBD — website design and development by MD. AL-AMIN ALI."
+      }
+    ]
+  },
+  {
     "id": "aro-detergent",
     "title": "Aro — Fresh Green Detergent",
     "cat": "packaging",
