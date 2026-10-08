@@ -283,8 +283,8 @@
       "/work/homecare-06.webp",
       "/work/homecare-14.webp",
       "/work/homecare-13.webp",
-      "/work/homecare-25.webp",
-      "/work/homecare-26.webp"
+      "/work/homecare-25-cutout.webp",
+      "/work/homecare-26-cutout.webp"
     ],
     "desc": "A lemon-and-orange dishwashing range presented in refill pouches and shaped bottles. Bold Vix branding, Bengali product typography and citrus imagery connect the variants across formats.",
     "tech": [
@@ -299,7 +299,7 @@
       },
       {
         "title": "Design details",
-        "text": "Lemon refill pouch: green rays, sliced lime and a metallic plate illustration. Orange refill pouch: an orange palette and citrus slice adapt the same label system. Lemon bottle: curved label graphics follow the shaped container and retain the central Bengali product name. Orange bottle: a matching orange cap and liquid complement the citrus-led label. Lemon bottle presentation: the same green variant shown against a white backdrop. Orange bottle presentation: a white-background view of the orange variant."
+        "text": "Lemon refill pouch: green rays, sliced lime and a metallic plate illustration. Orange refill pouch: an orange palette and citrus slice adapt the same label system. Lemon bottle: curved label graphics follow the shaped container and retain the central Bengali product name. Orange bottle: a matching orange cap and liquid complement the citrus-led label. Lemon bottle presentation: a clean silhouette highlights the green variant and citrus-led label. Orange bottle presentation: a clean silhouette highlights the orange variant and matching cap."
       }
     ],
     "gallery": [
@@ -320,12 +320,12 @@
         "caption": "Orange bottle: a matching orange cap and liquid complement the citrus-led label."
       },
       {
-        "src": "/work/homecare-25.webp",
-        "caption": "Lemon bottle presentation: the same green variant shown against a white backdrop."
+        "src": "/work/homecare-25-cutout.webp",
+        "caption": "Lemon bottle presentation: a clean silhouette highlights the green variant and citrus-led label."
       },
       {
-        "src": "/work/homecare-26.webp",
-        "caption": "Orange bottle presentation: a white-background view of the orange variant."
+        "src": "/work/homecare-26-cutout.webp",
+        "caption": "Orange bottle presentation: a clean silhouette highlights the orange variant and matching cap."
       }
     ]
   },
@@ -411,10 +411,10 @@
     "cat": "packaging",
     "client": "Joytun",
     "featured": false,
-    "imgUrl": "/work/homecare-19.webp",
+    "imgUrl": "/work/homecare-19-cutout.webp",
     "images": [
-      "/work/homecare-19.webp",
-      "/work/homecare-20.webp"
+      "/work/homecare-19-cutout.webp",
+      "/work/homecare-20-cutout.webp"
     ],
     "desc": "A horizontal wrapper system for lemon and orange dish wash bars. Large Vix lettering and Bengali product text remain central, with citrus and plate imagery identifying the product at a glance.",
     "tech": [
@@ -434,11 +434,11 @@
     ],
     "gallery": [
       {
-        "src": "/work/homecare-19.webp",
+        "src": "/work/homecare-19-cutout.webp",
         "caption": "Lemon bar: green wrapper with a citrus slice and white plate imagery."
       },
       {
-        "src": "/work/homecare-20.webp",
+        "src": "/work/homecare-20-cutout.webp",
         "caption": "Orange bar: orange wrapper with matching citrus graphics and the same bilingual hierarchy."
       }
     ]
@@ -449,10 +449,10 @@
     "cat": "packaging",
     "client": "Joytun",
     "featured": false,
-    "imgUrl": "/work/homecare-21.webp",
+    "imgUrl": "/work/homecare-21-cutout.webp",
     "images": [
-      "/work/homecare-21.webp",
-      "/work/homecare-22.webp"
+      "/work/homecare-21-cutout.webp",
+      "/work/homecare-22-cutout.webp"
     ],
     "desc": "A glass-cleaner label system presented on a trigger spray and refill bottle. Blue liquid, white label areas and reflective surface imagery create a clear connection to the cleaning category.",
     "tech": [
@@ -472,11 +472,11 @@
     ],
     "gallery": [
       {
-        "src": "/work/homecare-21.webp",
+        "src": "/work/homecare-21-cutout.webp",
         "caption": "Trigger spray: a blue-and-white spray head above a compact front label with glass-cleaning imagery."
       },
       {
-        "src": "/work/homecare-22.webp",
+        "src": "/work/homecare-22-cutout.webp",
         "caption": "Refill bottle: a blue screw cap and taller curved container carry the related label treatment."
       }
     ]
@@ -487,9 +487,9 @@
     "cat": "packaging",
     "client": "Joytun",
     "featured": false,
-    "imgUrl": "/work/homecare-23.webp",
+    "imgUrl": "/work/homecare-23-cutout.webp",
     "images": [
-      "/work/homecare-23.webp"
+      "/work/homecare-23-cutout.webp"
     ],
     "desc": "A toilet-cleaner packaging presentation using a deep blue angled-neck bottle and red cap. The front label combines a prominent product title with a lighter blue center and a dark information panel.",
     "tech": [
@@ -509,7 +509,7 @@
     ],
     "gallery": [
       {
-        "src": "/work/homecare-23.webp",
+        "src": "/work/homecare-23-cutout.webp",
         "caption": "Front bottle view: blue body, red angled cap and a vertically organized label designed around the curved container."
       }
     ]
