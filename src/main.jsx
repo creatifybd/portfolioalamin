@@ -18,6 +18,17 @@ const { useState, useEffect, useRef, Suspense, lazy } = React;
 const Admin = lazy(() => import("./StudioAdmin.jsx"));
 const NAME = "MD. AL-AMIN ALI",
   EMAIL = "binashad7@gmail.com";
+// Art direction lives around the original artwork, never inside it.
+function productTone(project, image = "") {
+  if (/homecare-(06|08|12|13|20|25|26)/.test(image)) {
+    return /homecare-25/.test(image) ? "citrus" : "amber";
+  }
+  if (/glasso|flush|nova|supreme/.test(project.id)) return "glacier";
+  if (/sharo|nolive/.test(project.id)) return "lilac";
+  if (/rio|revx|elite|optima/.test(project.id)) return "ember";
+  if (/orbit/.test(project.id)) return "amber";
+  return "citrus";
+}
 function Arrow({ diagonal = false, ...props }) {
   return (
     <svg
@@ -408,7 +419,7 @@ function Work({ projects, go, loadState }) {
               go(`/project/${encodeURIComponent(p.id)}`);
             }}
           >
-            <div className="project-art">
+            <div className={`project-art ${p.cat === "packaging" ? "product-stage" : ""}`} data-tone={productTone(p, imagesFor(p)[0])}>
               {p.cat === "web" && (
                 <div className="browser-bar">
                   <span>● ● ●</span>
@@ -877,8 +888,9 @@ function Project({ project, projects, loading, go }) {
         }
       >
         {imgs.map((img, i) => (
-          <figure key={img}>
+          <figure key={img} data-tone={productTone(project, img)}>
             <button
+              className={project.cat === "packaging" ? "product-stage" : undefined}
               onClick={() => setLightbox(i)}
               aria-label={`View image ${i + 1} full screen`}
             >
