@@ -298,6 +298,7 @@ function App() {
             <About data={data} />
             <Work projects={projects} go={go} loadState={loadState} />
             <Expertise data={data} />
+            <Background data={data} />
             <Contact />
           </>
         )}
@@ -332,6 +333,8 @@ function App() {
 function Work({ projects, go, loadState }) {
   const [category, setCategory] = useState("all"),
     [query, setQuery] = useState("");
+  const [limit, setLimit] = useState(8);
+  useEffect(() => setLimit(8), [category, query]);
   const cats = [...new Set(projects.map((p) => p.cat))];
   const filtered = filterProjects(projects, category, query);
   const ordered = [...filtered].sort(
@@ -347,12 +350,12 @@ function Work({ projects, go, loadState }) {
       </div>
       <div className="work-heading">
         <h2>
-          The work<span className="blue">.</span>
+          Selected work<span className="blue">.</span>
         </h2>
         <p>
-          Graphic design, brand identities
+          Brand identities, packaging and websites.
           <br />
-          and digital work.
+          Explore the projects and the thinking behind them.
         </p>
       </div>
       <div className="work-controls">
@@ -400,7 +403,7 @@ function Work({ projects, go, loadState }) {
         </label>
       </div>
       <p className="sr-only" role="status">
-        {filtered.length} projects shown
+        {Math.min(limit, filtered.length)} of {filtered.length} projects shown
       </p>
       {loadState === "offline" && (
         <p className="connection-note" role="status">
@@ -409,7 +412,7 @@ function Work({ projects, go, loadState }) {
         </p>
       )}
       <div className="project-grid">
-        {ordered.map((p, i) => (
+        {ordered.slice(0, limit).map((p, i) => (
           <a
             className={`project-card card-${i % 4} ${p.cat === "web" ? "web-card" : ""}`}
             href={`/project/${encodeURIComponent(p.id)}`}
@@ -451,6 +454,7 @@ function Work({ projects, go, loadState }) {
           </a>
         ))}
       </div>
+      {ordered.length > limit && <div className="load-projects"><span>{Math.min(limit, ordered.length)} / {ordered.length} projects</span><button className="button" onClick={() => setLimit(n => n + 8)}>Show more projects <Arrow /></button></div>}
       {!filtered.length && (
         <div className="empty-state">
           <h3>
@@ -472,7 +476,7 @@ function Work({ projects, go, loadState }) {
         </div>
       )}
       <div className="work-end">
-        <span>End of portfolio</span>
+        <span>{Math.min(limit, ordered.length)} of {ordered.length} projects</span>
         <span className="end-mark" aria-hidden="true">
           ✳
         </span>
@@ -515,7 +519,7 @@ function About({ data }) {
             {about.bio1 ||
               "Graphic designer, website developer and AI artist based in Bangladesh."}
           </p>
-          {about.bio2 && <p>{about.bio2}</p>}
+          
           <div className="about-links">
             <a className="button solid" href="#work">
               Explore my work <Arrow diagonal />
@@ -556,6 +560,16 @@ function About({ data }) {
           </div>
         </div>
       </div>
+
+    </section>
+  );
+}
+function Background({ data }) {
+  const experience = (data.experience || []).filter(x => !x.hidden);
+  const education = (data.education || []).filter(x => !x.hidden);
+  return <section className="career section-wrap" aria-label="Professional background">
+    <div className="section-top"><span className="eyebrow">04 / Background</span><span className="eyebrow">Experience & education</span></div>
+    {data.about?.bio2 && <p className="career-intro">{data.about.bio2}</p>}
       <div id="experience" className="background-grid">
         <div>
           <h3 className="subheading">
@@ -619,8 +633,7 @@ function About({ data }) {
           )}
         </div>
       </div>
-    </section>
-  );
+  </section>;
 }
 function Expertise({ data }) {
   const skills = (data.skills || []).filter((x) => !x.hidden);
@@ -630,11 +643,7 @@ function Expertise({ data }) {
         <span className="eyebrow">03 / Expertise</span>
         <span className="eyebrow">Creative & technical</span>
       </div>
-      <h2>
-        Design meets
-        <br />
-        <span className="outline-type">development.</span>
-      </h2>
+      <h2>Creative expertise<span className="blue">.</span></h2>
       <div className="expertise-rows">
         {[
           [
@@ -694,7 +703,7 @@ function Contact() {
   return (
     <section id="contact" className="contact section-wrap">
       <div className="section-top">
-        <span className="eyebrow">04 / Contact</span>
+        <span className="eyebrow">05 / Contact</span>
         <span className="eyebrow">Narayanganj, Bangladesh</span>
       </div>
       <div className="contact-heading">
