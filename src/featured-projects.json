@@ -112,7 +112,8 @@
     "featured": false,
     "imgUrl": "/work/homecare-01.webp",
     "images": [
-      "/work/homecare-01.webp"
+      "/work/homecare-01.webp",
+      "/work/artwork-aro-dieline.webp"
     ],
     "desc": "A detergent pouch built around a bold green identity, a large Aro wordmark and a circular cleaning motif. The pack combines energetic movement with clear product recognition.",
     "tech": [
@@ -128,12 +129,23 @@
       {
         "title": "Design details",
         "text": "Fresh Green pouch: deep green framing, a bright central panel and a rotating green-and-gold emblem create a strong vertical hierarchy."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
       {
         "src": "/work/homecare-01.webp",
         "caption": "Fresh Green pouch: deep green framing, a bright central panel and a rotating green-and-gold emblem create a strong vertical hierarchy."
+      },
+      {
+        "src": "/work/artwork-aro-dieline.webp",
+        "caption": "Full 500g pouch artwork: front identity, side information and fold dimensions in one unaltered layout.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2201
       }
     ]
   },
@@ -145,7 +157,8 @@
     "featured": false,
     "imgUrl": "/work/homecare-02.webp",
     "images": [
-      "/work/homecare-02.webp"
+      "/work/homecare-02.webp",
+      "/work/artwork-sharo-dieline.webp"
     ],
     "desc": "A violet detergent pack with an oval brand centerpiece and sweeping light trails. The composition brings the product name forward while connecting the surrounding graphics to fabric care.",
     "tech": [
@@ -161,12 +174,23 @@
       {
         "title": "Design details",
         "text": "Violet pouch: an oval Sharo lockup anchors the layout, with folded fabric below and curved light accents directing attention toward the center."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
       {
         "src": "/work/homecare-02.webp",
         "caption": "Violet pouch: an oval Sharo lockup anchors the layout, with folded fabric below and curved light accents directing attention toward the center."
+      },
+      {
+        "src": "/work/artwork-sharo-dieline.webp",
+        "caption": "Full 500g detergent pouch artwork: violet brand field, fabric-care imagery and the complete information panels.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2170
       }
     ]
   },
@@ -178,7 +202,8 @@
     "featured": false,
     "imgUrl": "/work/homecare-03.webp",
     "images": [
-      "/work/homecare-03.webp"
+      "/work/homecare-03.webp",
+      "/work/artwork-rio-dieline.webp"
     ],
     "desc": "A bright red-and-blue detergent packaging design centered on the Rio name. An angled red banner and flowing powder illustration create a dynamic front-of-pack composition.",
     "tech": [
@@ -194,12 +219,23 @@
       {
         "title": "Design details",
         "text": "Rio pouch: red brand lettering sits above a diagonal product banner, with detergent granules and floral details across the blue lower panel."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
       {
         "src": "/work/homecare-03.webp",
         "caption": "Rio pouch: red brand lettering sits above a diagonal product banner, with detergent granules and floral details across the blue lower panel."
+      },
+      {
+        "src": "/work/artwork-rio-dieline.webp",
+        "caption": "Full 500g detergent pouch artwork: red-and-blue front identity, side panels, barcode and fold dimensions.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2201
       }
     ]
   },
@@ -218,7 +254,15 @@
       "/work/homecare-10.webp",
       "/work/homecare-11.webp",
       "/work/homecare-12.webp",
-      "/work/homecare-24.webp"
+      "/work/homecare-24.webp",
+      "/work/artwork-nolive-apple-label.webp",
+      "/work/artwork-nolive-gold-label.webp",
+      "/work/artwork-nolive-lavender-label.webp",
+      "/work/artwork-nolive-ocean-label.webp",
+      "/work/artwork-nolive-apple-pouch.webp",
+      "/work/artwork-nolive-gold-pouch.webp",
+      "/work/artwork-nolive-lavender-pouch.webp",
+      "/work/artwork-nolive-ocean-pouch.webp"
     ],
     "desc": "A coordinated hand-wash range spanning refill pouches and pump bottles. Lavender, Ocean Blue, Gold Fresh and Apple Green use distinct colors while sharing the same n’Olive identity and centered label structure.",
     "tech": [
@@ -234,6 +278,10 @@
       {
         "title": "Design details",
         "text": "Lavender refill: violet tones, lavender stems and a white scent band. Ocean Blue refill: deep blue color, blue blossoms and water-inspired highlights. Gold Fresh refill: warm yellow-gold tones with citrus imagery. Apple Green refill: dark green framing with a prominent green apple. Lavender pump bottle: purple liquid, a matching pump and a compact front label. Ocean Blue pump bottle: transparent blue presentation with bubbles and floral details. Gold Fresh pump bottle: yellow liquid and pump reinforce the citrus palette. Apple Green pump bottle: green liquid, pump and apple imagery carry the refill identity into a rigid bottle."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
@@ -268,7 +316,66 @@
       {
         "src": "/work/homecare-24.webp",
         "caption": "Apple Green pump bottle: green liquid, pump and apple imagery carry the refill identity into a rigid bottle."
+      },
+      {
+        "src": "/work/artwork-nolive-apple-label.webp",
+        "caption": "Apple Green bottle labels: fruit imagery, a green palette and coordinated front/back information.",
+        "kind": "artwork",
+        "width": 2250,
+        "height": 1725
+      },
+      {
+        "src": "/work/artwork-nolive-gold-label.webp",
+        "caption": "Gold Fresh bottle labels: the supplied artwork uses the Gold Fresh name, with warm yellow and citrus imagery.",
+        "kind": "artwork",
+        "width": 2250,
+        "height": 1725
+      },
+      {
+        "src": "/work/artwork-nolive-lavender-label.webp",
+        "caption": "Lavender bottle labels: botanical imagery and a soft violet identity, paired with the reverse information panel.",
+        "kind": "artwork",
+        "width": 2250,
+        "height": 1725
+      },
+      {
+        "src": "/work/artwork-nolive-ocean-label.webp",
+        "caption": "Ocean Blue bottle labels: cool blue tones and floral imagery across the front and back.",
+        "kind": "artwork",
+        "width": 2250,
+        "height": 1725
+      },
+      {
+        "src": "/work/artwork-nolive-apple-pouch.webp",
+        "caption": "Apple Green refill pouch: complete front/back artwork with fold guides, sealing areas and lower product information.",
+        "kind": "artwork",
+        "width": 1562,
+        "height": 3200
+      },
+      {
+        "src": "/work/artwork-nolive-gold-pouch.webp",
+        "caption": "Gold Fresh refill pouch: the yellow variant translated into a full vertical packaging layout.",
+        "kind": "artwork",
+        "width": 1562,
+        "height": 3200
+      },
+      {
+        "src": "/work/artwork-nolive-lavender-pouch.webp",
+        "caption": "Lavender refill pouch: violet front graphics and a coordinated reverse panel with the supplied measurements.",
+        "kind": "artwork",
+        "width": 1562,
+        "height": 3200
+      },
+      {
+        "src": "/work/artwork-nolive-ocean-pouch.webp",
+        "caption": "Ocean Blue refill pouch: blue brand graphics with the complete print and fold layout.",
+        "kind": "artwork",
+        "width": 1562,
+        "height": 3200
       }
+    ],
+    "relatedProjects": [
+      "nolive-shipping-carton"
     ]
   },
   {
@@ -284,7 +391,11 @@
       "/work/homecare-14.webp",
       "/work/homecare-13.webp",
       "/work/homecare-25-cutout.webp",
-      "/work/homecare-26-cutout.webp"
+      "/work/homecare-26-cutout.webp",
+      "/work/artwork-vix-lemon-label.webp",
+      "/work/artwork-vix-orange-label.webp",
+      "/work/artwork-vix-lemon-pouch.webp",
+      "/work/artwork-vix-orange-pouch.webp"
     ],
     "desc": "A lemon-and-orange dishwashing range presented in refill pouches and shaped bottles. Bold Vix branding, Bengali product typography and citrus imagery connect the variants across formats.",
     "tech": [
@@ -300,6 +411,10 @@
       {
         "title": "Design details",
         "text": "Lemon refill pouch: green rays, sliced lime and a metallic plate illustration. Orange refill pouch: an orange palette and citrus slice adapt the same label system. Lemon bottle: curved label graphics follow the shaped container and retain the central Bengali product name. Orange bottle: a matching orange cap and liquid complement the citrus-led label. Lemon bottle presentation: a clean silhouette highlights the green variant and citrus-led label. Orange bottle presentation: a clean silhouette highlights the orange variant and matching cap."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
@@ -326,7 +441,38 @@
       {
         "src": "/work/homecare-26-cutout.webp",
         "caption": "Orange bottle presentation: a clean silhouette highlights the orange variant and matching cap."
+      },
+      {
+        "src": "/work/artwork-vix-lemon-label.webp",
+        "caption": "Lemon 500ml bottle label: the curved front identity and information-rich back label.",
+        "kind": "artwork",
+        "width": 2980,
+        "height": 2740
+      },
+      {
+        "src": "/work/artwork-vix-orange-label.webp",
+        "caption": "Orange bottle label: citrus-led graphics and a coordinated front/back layout.",
+        "kind": "artwork",
+        "width": 2980,
+        "height": 2500
+      },
+      {
+        "src": "/work/artwork-vix-lemon-pouch.webp",
+        "caption": "Lemon refill pouch artwork: front and reverse panels, seal areas and supplied measurements.",
+        "kind": "artwork",
+        "width": 1271,
+        "height": 3200
+      },
+      {
+        "src": "/work/artwork-vix-orange-pouch.webp",
+        "caption": "Orange refill pouch artwork: the matching variant with the complete vertical print layout.",
+        "kind": "artwork",
+        "width": 1242,
+        "height": 3200
       }
+    ],
+    "relatedProjects": [
+      "vix-shipping-carton"
     ]
   },
   {
@@ -338,7 +484,9 @@
     "imgUrl": "/work/homecare-15.webp",
     "images": [
       "/work/homecare-15.webp",
-      "/work/homecare-16.webp"
+      "/work/homecare-16.webp",
+      "/work/artwork-layzen-floral-label.webp",
+      "/work/artwork-layzen-lemon-label.webp"
     ],
     "desc": "A paired floor-cleaner packaging design with contrasting yellow-green and pink presentations. A shared label layout uses an angled wordmark, strong product title and floor-cleaning imagery.",
     "tech": [
@@ -354,6 +502,10 @@
       {
         "title": "Design details",
         "text": "Yellow-green bottle: a green lower label and floor-cleaning illustration support the bold product title. Pink bottle: magenta color accents preserve the same structure and product hierarchy."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
@@ -364,6 +516,20 @@
       {
         "src": "/work/homecare-16.webp",
         "caption": "Pink bottle: magenta color accents preserve the same structure and product hierarchy."
+      },
+      {
+        "src": "/work/artwork-layzen-floral-label.webp",
+        "caption": "Floral 1 litre label artwork: magenta variant, floor-cleaning imagery and matching reverse panel.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2261
+      },
+      {
+        "src": "/work/artwork-layzen-lemon-label.webp",
+        "caption": "Lemon 1 litre label artwork: yellow-green variant, front hierarchy and reverse product information.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2261
       }
     ]
   },
@@ -376,7 +542,9 @@
     "imgUrl": "/work/homecare-17.webp",
     "images": [
       "/work/homecare-17.webp",
-      "/work/homecare-18.webp"
+      "/work/homecare-18.webp",
+      "/work/artwork-baby-pink-dieline.webp",
+      "/work/artwork-baby-blue-dieline.webp"
     ],
     "desc": "Two soft-color packaging presentations for Joytun Baby detergent. A large script Baby wordmark, baby photograph and rounded information badges establish a gentler visual language within the household-care range.",
     "tech": [
@@ -392,6 +560,10 @@
       {
         "title": "Design details",
         "text": "Pink presentation: warm pink gradients, rounded badges and a baby photograph frame the large script title. Blue presentation: a cool blue background carries the same brand structure, photograph and lower information area."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
@@ -402,6 +574,20 @@
       {
         "src": "/work/homecare-18.webp",
         "caption": "Blue presentation: a cool blue background carries the same brand structure, photograph and lower information area."
+      },
+      {
+        "src": "/work/artwork-baby-pink-dieline.webp",
+        "caption": "Pink 500g carton artwork: front, back, side panels and closing flaps.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2193
+      },
+      {
+        "src": "/work/artwork-baby-blue-dieline.webp",
+        "caption": "Blue 500g carton artwork: the companion colorway with the full panel and flap layout.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2193
       }
     ]
   },
@@ -414,7 +600,9 @@
     "imgUrl": "/work/homecare-19-cutout.webp",
     "images": [
       "/work/homecare-19-cutout.webp",
-      "/work/homecare-20-cutout.webp"
+      "/work/homecare-20-cutout.webp",
+      "/work/artwork-vix-lemon-wrapper.webp",
+      "/work/artwork-vix-orange-wrapper.webp"
     ],
     "desc": "A horizontal wrapper system for lemon and orange dish wash bars. Large Vix lettering and Bengali product text remain central, with citrus and plate imagery identifying the product at a glance.",
     "tech": [
@@ -430,6 +618,10 @@
       {
         "title": "Design details",
         "text": "Lemon bar: green wrapper with a citrus slice and white plate imagery. Orange bar: orange wrapper with matching citrus graphics and the same bilingual hierarchy."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
@@ -440,6 +632,20 @@
       {
         "src": "/work/homecare-20-cutout.webp",
         "caption": "Orange bar: orange wrapper with matching citrus graphics and the same bilingual hierarchy."
+      },
+      {
+        "src": "/work/artwork-vix-lemon-wrapper.webp",
+        "caption": "Lemon 275g wrapper artwork: folding sequence, bilingual identity and production information. This is a different pack-size artwork from the earlier mockup.",
+        "kind": "artwork",
+        "width": 2381,
+        "height": 3200
+      },
+      {
+        "src": "/work/artwork-vix-orange-wrapper.webp",
+        "caption": "Orange 275g wrapper artwork: coordinated front, reverse and fold areas. This is a different pack-size artwork from the earlier mockup.",
+        "kind": "artwork",
+        "width": 2424,
+        "height": 3200
       }
     ]
   },
@@ -452,7 +658,9 @@
     "imgUrl": "/work/homecare-21-cutout.webp",
     "images": [
       "/work/homecare-21-cutout.webp",
-      "/work/homecare-22-cutout.webp"
+      "/work/homecare-22-cutout.webp",
+      "/work/artwork-glasso-refill-label.webp",
+      "/work/artwork-glasso-spray-label.webp"
     ],
     "desc": "A glass-cleaner label system presented on a trigger spray and refill bottle. Blue liquid, white label areas and reflective surface imagery create a clear connection to the cleaning category.",
     "tech": [
@@ -468,6 +676,10 @@
       {
         "title": "Design details",
         "text": "Trigger spray: a blue-and-white spray head above a compact front label with glass-cleaning imagery. Refill bottle: a blue screw cap and taller curved container carry the related label treatment."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
@@ -478,7 +690,24 @@
       {
         "src": "/work/homecare-22-cutout.webp",
         "caption": "Refill bottle: a blue screw cap and taller curved container carry the related label treatment."
+      },
+      {
+        "src": "/work/artwork-glasso-refill-label.webp",
+        "caption": "Refill bottle labels: the blue mascot-led front and shaped reverse label.",
+        "kind": "artwork",
+        "width": 2975,
+        "height": 2055
+      },
+      {
+        "src": "/work/artwork-glasso-spray-label.webp",
+        "caption": "Trigger spray labels: the front identity and companion reverse artwork adapted to the spray bottle.",
+        "kind": "artwork",
+        "width": 2975,
+        "height": 1870
       }
+    ],
+    "relatedProjects": [
+      "glasso-shipping-carton"
     ]
   },
   {
@@ -489,7 +718,8 @@
     "featured": false,
     "imgUrl": "/work/homecare-23-cutout.webp",
     "images": [
-      "/work/homecare-23-cutout.webp"
+      "/work/homecare-23-cutout.webp",
+      "/work/artwork-jflush-label.webp"
     ],
     "desc": "A toilet-cleaner packaging presentation using a deep blue angled-neck bottle and red cap. The front label combines a prominent product title with a lighter blue center and a dark information panel.",
     "tech": [
@@ -505,12 +735,23 @@
       {
         "title": "Design details",
         "text": "Front bottle view: blue body, red angled cap and a vertically organized label designed around the curved container."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
       }
     ],
     "gallery": [
       {
         "src": "/work/homecare-23-cutout.webp",
         "caption": "Front bottle view: blue body, red angled cap and a vertically organized label designed around the curved container."
+      },
+      {
+        "src": "/work/artwork-jflush-label.webp",
+        "caption": "Updated 750ml toilet-cleaner label artwork: the tapered front and reverse panels. Presented alongside the earlier bottle visualization as a separate artwork version.",
+        "kind": "artwork",
+        "width": 2975,
+        "height": 2490
       }
     ]
   },
@@ -778,6 +1019,153 @@
         "src": "/work/orbit-14.webp",
         "caption": "Optima HDE 5L: gold handled container with a white header, red lower panel and truck-led visual composition."
       }
+    ]
+  },
+  {
+    "id": "vix-shipping-carton",
+    "title": "Vix — Shipping Carton",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/vix-carton-mockup.webp",
+    "images": [
+      "/work/vix-carton-mockup.webp",
+      "/work/artwork-vix-carton-dieline.webp"
+    ],
+    "desc": "A shipping carton that extends the Vix retail identity into transport packaging. Bold black branding, a continuous quantity band and bilingual panels organise the box.",
+    "tech": [
+      "Carton design",
+      "Packaging system",
+      "Bilingual layout"
+    ],
+    "caseStudy": [
+      {
+        "title": "Packaging system",
+        "text": "The 12 × 500ml carton separates brand recognition on the broad panels from manufacturing details on the narrow sides. Handling symbols and stacking instructions support the transport format."
+      },
+      {
+        "title": "Artwork & visualization",
+        "text": "The original supplied dieline is shown in full alongside a generated assembled-carton visualization. The flat artwork is the authoritative design reference; the mockup illustrates the folded form."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/vix-carton-mockup.webp",
+        "caption": "Assembled carton visualization based on the supplied design. Refer to the original dieline for exact print artwork.",
+        "kind": "mockup"
+      },
+      {
+        "src": "/work/artwork-vix-carton-dieline.webp",
+        "caption": "Original carton dieline: 355 × 175 × 234 mm body, bilingual panels, handling icons and 12 × 500ml quantity band.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 1680
+      }
+    ],
+    "relatedProjects": [
+      "vix-dishwash-liquid"
+    ]
+  },
+  {
+    "id": "glasso-shipping-carton",
+    "title": "Mr. Glasso — Shipping Carton",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/glasso-carton-final.webp",
+    "images": [
+      "/work/glasso-carton-final.webp",
+      "/work/artwork-glasso-carton-dieline.webp"
+    ],
+    "desc": "A mascot-led shipping carton for the glass-cleaner range. Black linework on a kraft-colored surface connects product recognition with handling and batch information.",
+    "tech": [
+      "Carton design",
+      "Packaging system",
+      "Bilingual layout"
+    ],
+    "caseStudy": [
+      {
+        "title": "Packaging system",
+        "text": "The 12 × 350ml carton separates brand recognition on the broad panels from manufacturing details on the narrow sides. Handling symbols and stacking instructions support the transport format."
+      },
+      {
+        "title": "Artwork & visualization",
+        "text": "The original supplied dieline is shown in full alongside a generated assembled-carton visualization. The flat artwork is the authoritative design reference; the mockup illustrates the folded form."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/glasso-carton-final.webp",
+        "caption": "Assembled carton visualization based on the supplied design. Refer to the original dieline for exact print artwork.",
+        "kind": "mockup"
+      },
+      {
+        "src": "/work/artwork-glasso-carton-dieline.webp",
+        "caption": "Original carton dieline: 280 × 178 × 265 mm body, English and Bengali mascot lockups and 12 × 350ml quantity band.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 1932
+      }
+    ],
+    "relatedProjects": [
+      "mr-glasso-cleaner"
+    ]
+  },
+  {
+    "id": "nolive-shipping-carton",
+    "title": "n’Olive — Shipping Carton",
+    "cat": "packaging",
+    "client": "Joytun",
+    "featured": false,
+    "imgUrl": "/work/nolive-carton-mockup.webp",
+    "images": [
+      "/work/nolive-carton-mockup.webp",
+      "/work/artwork-nolive-carton-dieline.webp"
+    ],
+    "desc": "A shipping-carton system for the n’Olive hand-wash range. The monochrome identity, variant checkboxes and continuous quantity band create a practical companion to the retail packaging.",
+    "tech": [
+      "Carton design",
+      "Packaging system",
+      "Bilingual layout"
+    ],
+    "caseStudy": [
+      {
+        "title": "Packaging system",
+        "text": "The 12 × 230ml carton separates brand recognition on the broad panels from manufacturing details on the narrow sides. Handling symbols and stacking instructions support the transport format."
+      },
+      {
+        "title": "Artwork & visualization",
+        "text": "The original supplied dieline is shown in full alongside a generated assembled-carton visualization. The flat artwork is the authoritative design reference; the mockup illustrates the folded form."
+      },
+      {
+        "title": "Original artwork",
+        "text": "The supplied flat designs reveal the front and reverse layouts, typography and packaging structure. Mockups and artwork are presented as complementary views; pack sizes and design versions may differ where noted."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/nolive-carton-mockup.webp",
+        "caption": "Assembled carton visualization based on the supplied design. Refer to the original dieline for exact print artwork.",
+        "kind": "mockup"
+      },
+      {
+        "src": "/work/artwork-nolive-carton-dieline.webp",
+        "caption": "Original carton dieline: 240 × 155 × 170 mm body, bilingual branding, variant checkboxes and 12 × 230ml quantity band.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 1643
+      }
+    ],
+    "relatedProjects": [
+      "nolive-handwash"
     ]
   }
 ]

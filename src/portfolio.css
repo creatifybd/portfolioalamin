@@ -2186,3 +2186,37 @@ h1,h2 { letter-spacing:-.055em; font-weight:500; }
  .load-projects { flex-direction:column; gap:14px; }
  .contact h2 { font-size:clamp(42px,10vw,68px); }
 }
+
+/* Paired packaging case studies: mockups + original artwork. */
+.project-chapters { display:flex; gap:12px; flex-wrap:wrap; margin:38px 0 56px; }
+.project-chapters a { border:1px solid var(--line); border-radius:100px; padding:14px 20px; font-size:12px; min-height:46px; transition:background .2s; }
+.project-chapters a:hover { background:#e9edde; }
+.presentation-chapter { scroll-margin-top:32px; margin-bottom:90px; }
+.chapter-heading { display:flex; justify-content:space-between; align-items:end; gap:32px; border-top:1px solid var(--line); padding-top:28px; margin-bottom:32px; }
+.chapter-heading h2 { font-size:clamp(28px,3.4vw,48px); margin-top:12px; }
+.chapter-heading p { color:var(--muted); max-width:40ch; font-size:14px; }
+.artwork-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:48px 28px; }
+.artwork-gallery .artwork-wide { grid-column:1/-1; }
+.artwork-gallery figure > button.artwork-surface { background:#fff; border:1px solid #e6e7df; border-radius:12px; padding:clamp(12px,2vw,32px); height:auto; }
+.artwork-gallery figure > button img { width:100%; height:auto; max-height:none; object-fit:contain; filter:none; transform:none; }
+.artwork-gallery figcaption { display:flex; gap:24px; align-items:start; }
+.artwork-gallery figcaption > .eyebrow { flex-shrink:0; color:var(--muted); }
+.lightbox-viewport { width:100%; height:100%; overflow:auto; overscroll-behavior:contain; }
+.lightbox-viewport img { width:100%; height:100%; object-fit:contain; margin:auto; }
+.lightbox-viewport.is-zoomed img { width:1800px; max-width:none; height:auto; min-width:100%; object-fit:initial; }
+.lightbox-zoom { position:absolute; top:12px; left:20px; padding:9px 15px; min-height:40px; background:#292b25; border:1px solid #666; color:#fff; }
+@media(max-width:760px) {
+ .project-chapters { gap:8px; margin:28px 0 36px; }
+ .project-chapters a { padding:12px 14px; font-size:11px; }
+ .chapter-heading { display:block; }
+ .chapter-heading p { margin-top:16px; }
+ .presentation-chapter { margin-bottom:56px; }
+ .artwork-gallery { grid-template-columns:1fr; gap:30px; }
+ .artwork-gallery .artwork-wide { grid-column:auto; }
+ .artwork-gallery figcaption { flex-direction:column; gap:8px; }
+ .lightbox-viewport.is-zoomed img { width:1400px; }
+}
+@media(prefers-reduced-motion:reduce) { .project-chapters a { transition:none; } }
+
+.related-packaging { display:flex; flex-wrap:wrap; gap:20px; align-items:center; border-top:1px solid var(--line); padding:32px 0; }
+.related-packaging .button { white-space:normal; max-width:100%; }

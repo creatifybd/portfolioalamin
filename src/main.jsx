@@ -443,7 +443,7 @@ function Work({ projects, go, loadState }) {
               </span>
               {imagesFor(p).length > 1 && (
                 <span className="image-count">
-                  {imagesFor(p).length} images
+                  {imagesFor(p).length} views{p.gallery?.some(g => g.kind === "artwork") ? " · Artwork included" : ""}
                 </span>
               )}
             </div>
@@ -793,6 +793,8 @@ function Project({ project, projects, loading, go }) {
     dialog = useRef(null),
     backFocus = useRef(null);
   const imgs = project ? imagesFor(project) : [];
+  const [zoomed, setZoomed] = useState(false);
+  useEffect(() => setZoomed(false), [lightbox]);
   useEffect(() => {
     setLightbox(-1);
   }, [project?.id]);
@@ -889,42 +891,38 @@ function Project({ project, projects, loading, go }) {
           ))}
         </section>
       )}
-      <div
-        className={
-          project.cat === "packaging"
-            ? "project-gallery packaging-gallery"
-            : "project-gallery"
-        }
-      >
-        {imgs.map((img, i) => (
-          <figure key={img} data-tone={productTone(project, img)}>
-            <button
-              className={project.cat === "packaging" ? "product-stage" : undefined}
-              onClick={() => setLightbox(i)}
-              aria-label={`View image ${i + 1} full screen`}
-            >
-              <Artwork
-                src={img}
-                alt={
-                  project.gallery?.find((g) => g.src === img)?.caption ||
-                  `${project.title} — image ${i + 1}`
-                }
-                eager={i === 0}
-              />
-              <span className="gallery-expand" aria-hidden="true">
-                ⤢
-              </span>
-            </button>
-            <figcaption>
-              {String(i + 1).padStart(2, "0")} /{" "}
-              {String(imgs.length).padStart(2, "0")}
-              <span className="artwork-caption">
-                {project.gallery?.find((g) => g.src === img)?.caption}
-              </span>
-            </figcaption>
-          </figure>
-        ))}
-      </div>
+      {imgs.some(img => project.gallery?.find(g => g.src === img)?.kind === "artwork") && (
+        <nav className="project-chapters" aria-label="Project presentation chapters">
+          <a href="#mockups">01 / Mockup presentation</a>
+          <a href="#artwork">02 / Original artwork</a>
+        </nav>
+      )}
+      {[
+        {id: "mockups", title: "The finished form", subtitle: "Mockup presentation", flat: false},
+        {id: "artwork", title: "Behind the packaging", subtitle: "Original artwork", flat: true}
+      ].map(group => {
+        const entries = imgs.map((img, index) => ({img, index, meta: project.gallery?.find(g => g.src === img)}))
+          .filter(item => (item.meta?.kind === "artwork") === group.flat);
+        if (!entries.length) return null;
+        const hasArtwork = imgs.some(img => project.gallery?.find(g => g.src === img)?.kind === "artwork");
+        return <section id={group.id} className="presentation-chapter" key={group.id} aria-label={group.subtitle}>
+          {hasArtwork && <header className="chapter-heading">
+            <div><span className="eyebrow">{group.flat ? "02" : "01"} / {group.subtitle}</span><h2>{group.title}</h2></div>
+            <p>{group.flat ? "Explore the supplied labels, reverse panels and dielines. Open an image and zoom in to inspect the details." : "See the packaging in context, then explore the original design artwork below."}</p>
+          </header>}
+          <div className={group.flat ? "project-gallery artwork-gallery" : project.cat === "packaging" ? "project-gallery packaging-gallery" : "project-gallery"}>
+            {entries.map(({img, index, meta}) => <figure key={img} data-tone={productTone(project, img)} className={group.flat && meta?.width > meta?.height ? "artwork-wide" : ""}>
+              <button className={!group.flat && project.cat === "packaging" ? "product-stage" : "artwork-surface"}
+                onClick={() => setLightbox(index)} aria-label={`View image ${index + 1} full screen`}>
+                <Artwork src={img} alt={meta?.caption || `${project.title} — image ${index + 1}`} eager={index === 0} />
+                <span className="gallery-expand" aria-hidden="true">⤢</span>
+              </button>
+              <figcaption><span className="eyebrow">{group.flat ? "Artwork" : "View"} {String(entries.findIndex(e => e.img === img) + 1).padStart(2,"0")}</span><span className="artwork-caption">{meta?.caption}</span></figcaption>
+            </figure>)}
+          </div>
+        </section>;
+      })}
+
       {embed ? (
         <iframe
           className="project-video"
@@ -951,6 +949,10 @@ function Project({ project, projects, loading, go }) {
           Artwork for this project is being updated.
         </p>
       )}
+      {project.relatedProjects?.length > 0 && <aside className="related-packaging" aria-label="Related packaging">
+        <span className="eyebrow">Explore the packaging system</span>
+        {project.relatedProjects.map(id => { const item = projects.find(p => p.id === id); return item ? <a key={id} className="button" href={`/project/${id}`} onClick={e => {e.preventDefault();go(`/project/${id}`);}}>{item.title} <Arrow diagonal /></a> : null; })}
+      </aside>}
       {next && next.id !== project.id && (
         <a
           className="next-project"
@@ -996,11 +998,10 @@ function Project({ project, projects, loading, go }) {
           >
             Close ×
           </button>
-          <Artwork
-            src={imgs[lightbox]}
-            alt={`${project.title} — image ${lightbox + 1}`}
-            eager
-          />
+          <button className="lightbox-zoom" onClick={() => setZoomed(value => !value)} aria-pressed={zoomed}>{zoomed ? "Fit to screen" : "Zoom details +"}</button>
+          <div className={`lightbox-viewport ${zoomed ? "is-zoomed" : ""}`} key={`${lightbox}-${zoomed}`}>
+            <Artwork src={imgs[lightbox]} alt={project.gallery?.find(g => g.src === imgs[lightbox])?.caption || `${project.title} — image ${lightbox + 1}`} eager />
+          </div>
           <div className="lightbox-controls">
             <button
               disabled={imgs.length < 2}

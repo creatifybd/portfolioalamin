@@ -67,12 +67,12 @@ test("curated packaging assets are complete and remain available with remote con
   const curated = JSON.parse(
     readFileSync(new URL("../src/featured-projects.json", import.meta.url)),
   );
-  assert.equal(curated.length, 20);
+  assert.equal(curated.length, 23);
   assert.equal(
     curated
       .filter((p) => p.cat === "packaging")
       .reduce((sum, p) => sum + p.images.length, 0),
-    40,
+    70,
   );
   for (const p of curated) {
     assert.equal(p.gallery.length, p.images.length);
@@ -84,9 +84,10 @@ test("curated packaging assets are complete and remain available with remote con
     }
   }
   const combined = mergePortfolio(curated, [{ ...curated[0], hidden: true }]);
-  assert.equal(combined.length, 20);
-  assert.equal(visibleProjects(combined).length, 19);
-  assert.equal(mergePortfolio(curated, projects).length, 37);
+  assert.equal(combined.length, 23);
+  assert.equal(visibleProjects(combined).length, 22);
+  assert.equal(mergePortfolio(curated, projects).length, 40);
+  assert.equal(curated.flatMap(p => p.gallery).filter(g => g.kind === "artwork").length, 27);
 });
 
 test("legacy profile migration corrects identity and preserves subsequent admin changes", async () => {
