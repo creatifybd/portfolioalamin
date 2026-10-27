@@ -759,7 +759,7 @@
     "id": "orbit-nova-series",
     "title": "Orbit Nova — HD40 & HD50",
     "cat": "packaging",
-    "client": "Orbit Lubricants",
+    "client": "Orbit Lubricant Industries",
     "featured": true,
     "imgUrl": "/work/orbit-01.webp",
     "images": [
@@ -767,13 +767,23 @@
       "/work/orbit-02.webp",
       "/work/orbit-09.webp",
       "/work/orbit-12.webp",
-      "/work/orbit-13.webp"
+      "/work/orbit-13.webp",
+      "/work/artwork-orbit-nova-hd40-5l-label.webp",
+      "/work/artwork-orbit-nova-hd50-5l-label.webp",
+      "/work/artwork-orbit-nova-hd50-3l-label.webp",
+      "/work/artwork-orbit-nova-hd40-1l-label.webp",
+      "/work/artwork-orbit-nova-hd50-1l-label.webp",
+      "/work/artwork-orbit-nova-hd50-1l-carton.webp",
+      "/work/artwork-orbit-nova-hd50-3l-carton.webp",
+      "/work/artwork-orbit-nova-hd50-5l-carton.webp",
+      "/work/artwork-orbit-nova-hd40-5l-carton.webp"
     ],
     "desc": "A coordinated heavy-duty lubricant packaging family across 1L, 3L and 5L containers. Blue bottles and a repeated angular label system connect the HD40 and HD50 variants.",
     "tech": [
       "Packaging design",
       "Label design",
-      "Product presentation"
+      "Product presentation",
+      "Carton design"
     ],
     "caseStudy": [
       {
@@ -783,6 +793,10 @@
       {
         "title": "Design details",
         "text": "Nova HD40 1L: a compact blue bottle with a white angled header, orange HD40 lettering and a truck image. Nova HD50 1L: the companion SAE 50 label retains the same blue-and-orange visual system. Nova HD50 3L: the label expands to a handled bottle while preserving the central name and grade hierarchy. Nova HD40 5L: a larger blue handled container with a broad white upper panel and dark truck illustration. Nova HD50 5L: the SAE 50 variant adapts the same family layout to the 5L format."
+      },
+      {
+        "title": "Packaging system",
+        "text": "The Nova system carries the same blue-and-orange hierarchy from paired bottle labels into 1L, 3L and 5L shipping cartons. HD40 and HD50 stay visually connected while the viscosity, pack size and quantity remain distinct."
       }
     ],
     "gallery": [
@@ -805,27 +819,207 @@
       {
         "src": "/work/orbit-13.webp",
         "caption": "Nova HD50 5L: the SAE 50 variant adapts the same family layout to the 5L format."
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd40-5l-label.webp",
+        "caption": "Nova HD40 5L: the front and reverse label artwork adapts the blue truck-led identity to a large handled container.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2027
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd50-5l-label.webp",
+        "caption": "Nova HD50 5L: the SAE 50 variant retains the blue-and-white family layout and a coordinated technical reverse panel.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2027
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd50-3l-label.webp",
+        "caption": "Nova HD50 3L: the supplied artwork identifies this as the 3L variant, with a compact front and reverse label layout.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2027
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd40-1l-label.webp",
+        "caption": "Nova HD40 1L: the sloped label silhouette frames the blue brand system, SAE 40 grade and coordinated reverse information panel.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2261
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd50-1l-label.webp",
+        "caption": "Nova HD50 1L: front and reverse labels for the SAE 50 variant, with shared truck imagery and blue-and-orange hierarchy.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2261
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd50-1l-carton.webp",
+        "caption": "Nova HD50 · 1L shipping carton: complete supplied artwork for 1L × 12 pieces, with branding, technical side panel and closing flaps. Dimensions: 15 × 10.5 × 8.75 inches.",
+        "kind": "artwork",
+        "width": 1980,
+        "height": 1697,
+        "carton": {
+          "label": "Nova HD50 · 1L",
+          "size": [
+            15,
+            10.5,
+            8.75
+          ],
+          "quantity": "1L × 12 pieces",
+          "front": [
+            3.636364,
+            25.987036,
+            54.545455,
+            37.124337
+          ],
+          "side": [
+            58.181818,
+            25.987036,
+            38.181818,
+            37.124337
+          ],
+          "flap": [
+            3.636364,
+            3.712434,
+            54.545455,
+            22.274602
+          ]
+        }
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd50-3l-carton.webp",
+        "caption": "Nova HD50 · 3L shipping carton: complete supplied artwork for 3L × 6 pieces, with branding, technical side panel and closing flaps. Dimensions: 16 × 11.25 × 11.75 inches.",
+        "kind": "artwork",
+        "width": 2238,
+        "height": 2036,
+        "carton": {
+          "label": "Nova HD50 · 3L",
+          "size": [
+            16,
+            11.25,
+            11.75
+          ],
+          "quantity": "3L × 6 pieces",
+          "front": [
+            6.16622,
+            26.031434,
+            51.474531,
+            41.552063
+          ],
+          "side": [
+            57.640751,
+            26.031434,
+            36.193029,
+            41.552063
+          ],
+          "flap": [
+            6.16622,
+            6.139489,
+            51.474531,
+            19.891945
+          ]
+        }
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd50-5l-carton.webp",
+        "caption": "Nova HD50 · 5L shipping carton: complete supplied artwork for 5L × 4 pieces, with branding, technical side panel and closing flaps. Dimensions: 18 × 9 × 13.5 inches.",
+        "kind": "artwork",
+        "width": 2136,
+        "height": 1925,
+        "carton": {
+          "label": "Nova HD50 · 5L",
+          "size": [
+            18,
+            9,
+            13.5
+          ],
+          "quantity": "5L × 4 pieces",
+          "front": [
+            4.494382,
+            21.350649,
+            60.720974,
+            50.493506
+          ],
+          "side": [
+            65.215356,
+            21.350649,
+            30.290262,
+            50.493506
+          ],
+          "flap": [
+            4.494382,
+            4.519481,
+            60.720974,
+            16.831169
+          ]
+        }
+      },
+      {
+        "src": "/work/artwork-orbit-nova-hd40-5l-carton.webp",
+        "caption": "Nova HD40 · 5L shipping carton: complete supplied artwork for 5L × 4 pieces, with branding, technical side panel and closing flaps. Dimensions: 18 × 9 × 13.5 inches.",
+        "kind": "artwork",
+        "width": 2136,
+        "height": 1925,
+        "carton": {
+          "label": "Nova HD40 · 5L",
+          "size": [
+            18,
+            9,
+            13.5
+          ],
+          "quantity": "5L × 4 pieces",
+          "front": [
+            4.494382,
+            21.350649,
+            60.720974,
+            50.493506
+          ],
+          "side": [
+            65.215356,
+            21.350649,
+            30.290262,
+            50.493506
+          ],
+          "flap": [
+            4.494382,
+            4.519481,
+            60.720974,
+            16.831169
+          ]
+        }
       }
+    ],
+    "relatedProjects": [
+      "orbit-website"
     ]
   },
   {
     "id": "orbit-xpower-series",
     "title": "Orbit XPower — Motorcycle Oil Range",
     "cat": "packaging",
-    "client": "Orbit Lubricants",
+    "client": "Orbit Lubricant Industries",
     "featured": true,
     "imgUrl": "/work/orbit-04.webp",
     "images": [
       "/work/orbit-04.webp",
       "/work/orbit-05.webp",
       "/work/orbit-06.webp",
-      "/work/orbit-07.webp"
+      "/work/orbit-07.webp",
+      "/work/artwork-orbit-xpower-1l-labels.webp",
+      "/work/artwork-orbit-xpower-10w30-carton.webp",
+      "/work/artwork-orbit-xpower-10w40-carton.webp",
+      "/work/artwork-orbit-xpower-20w40-carton.webp",
+      "/work/artwork-orbit-xpower-20w50-carton.webp"
     ],
     "desc": "A four-variant motorcycle-oil label system presented on white 1L bottles. The collection uses consistent orange diagonal graphics and a motorcycle image, with viscosity grades providing the main point of differentiation.",
     "tech": [
       "Packaging design",
       "Label design",
-      "Product presentation"
+      "Product presentation",
+      "Carton design"
     ],
     "caseStudy": [
       {
@@ -835,6 +1029,10 @@
       {
         "title": "Design details",
         "text": "10W30: oversized gray grade text, orange diagonal strokes and a motorcycle illustration on a white bottle. 10W40: the grade changes within the same structured label composition. 20W40: consistent orange accents and technical information maintain family recognition. 20W50: the fourth viscosity variant completes the shared white-and-orange presentation."
+      },
+      {
+        "title": "Packaging system",
+        "text": "Four front-and-reverse label pairs and four matching 12-bottle cartons share a consistent structure. Large viscosity grades distinguish the variants, while motorcycle imagery and orange accents connect the range."
       }
     ],
     "gallery": [
@@ -853,18 +1051,165 @@
       {
         "src": "/work/orbit-07.webp",
         "caption": "20W50: the fourth viscosity variant completes the shared white-and-orange presentation."
+      },
+      {
+        "src": "/work/artwork-orbit-xpower-1l-labels.webp",
+        "caption": "The complete XPower 1L label family: front and reverse designs for 10W30, 10W40, 20W40 and 20W50. Consistent orange graphics connect the four grades.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2741
+      },
+      {
+        "src": "/work/artwork-orbit-xpower-10w30-carton.webp",
+        "caption": "XPower 10W30 shipping carton: complete supplied artwork for 1L × 12 pieces, with branding, technical side panel and closing flaps. Dimensions: 15 × 10.5 × 8.75 inches.",
+        "kind": "artwork",
+        "width": 1980,
+        "height": 1697,
+        "carton": {
+          "label": "XPower 10W30",
+          "size": [
+            15,
+            10.5,
+            8.75
+          ],
+          "quantity": "1L × 12 pieces",
+          "front": [
+            3.636364,
+            25.987036,
+            54.545455,
+            37.124337
+          ],
+          "side": [
+            58.181818,
+            25.987036,
+            38.181818,
+            37.124337
+          ],
+          "flap": [
+            3.636364,
+            3.712434,
+            54.545455,
+            22.274602
+          ]
+        }
+      },
+      {
+        "src": "/work/artwork-orbit-xpower-10w40-carton.webp",
+        "caption": "XPower 10W40 shipping carton: complete supplied artwork for 1L × 12 pieces, with branding, technical side panel and closing flaps. Dimensions: 15 × 10.5 × 8.75 inches.",
+        "kind": "artwork",
+        "width": 1980,
+        "height": 1697,
+        "carton": {
+          "label": "XPower 10W40",
+          "size": [
+            15,
+            10.5,
+            8.75
+          ],
+          "quantity": "1L × 12 pieces",
+          "front": [
+            3.636364,
+            25.987036,
+            54.545455,
+            37.124337
+          ],
+          "side": [
+            58.181818,
+            25.987036,
+            38.181818,
+            37.124337
+          ],
+          "flap": [
+            3.636364,
+            3.712434,
+            54.545455,
+            22.274602
+          ]
+        }
+      },
+      {
+        "src": "/work/artwork-orbit-xpower-20w40-carton.webp",
+        "caption": "XPower 20W40 shipping carton: complete supplied artwork for 1L × 12 pieces, with branding, technical side panel and closing flaps. Dimensions: 15 × 10.5 × 8.75 inches.",
+        "kind": "artwork",
+        "width": 1980,
+        "height": 1697,
+        "carton": {
+          "label": "XPower 20W40",
+          "size": [
+            15,
+            10.5,
+            8.75
+          ],
+          "quantity": "1L × 12 pieces",
+          "front": [
+            3.636364,
+            25.869181,
+            54.545455,
+            37.124337
+          ],
+          "side": [
+            58.181818,
+            25.869181,
+            38.181818,
+            37.124337
+          ],
+          "flap": [
+            3.636364,
+            3.594579,
+            54.545455,
+            22.274602
+          ]
+        }
+      },
+      {
+        "src": "/work/artwork-orbit-xpower-20w50-carton.webp",
+        "caption": "XPower 20W50 shipping carton: complete supplied artwork for 1L × 12 pieces, with branding, technical side panel and closing flaps. Dimensions: 15 × 10.5 × 8.75 inches.",
+        "kind": "artwork",
+        "width": 1980,
+        "height": 1697,
+        "carton": {
+          "label": "XPower 20W50",
+          "size": [
+            15,
+            10.5,
+            8.75
+          ],
+          "quantity": "1L × 12 pieces",
+          "front": [
+            3.636364,
+            25.869181,
+            54.545455,
+            37.124337
+          ],
+          "side": [
+            58.181818,
+            25.869181,
+            38.181818,
+            37.124337
+          ],
+          "flap": [
+            3.636364,
+            3.594579,
+            54.545455,
+            22.274602
+          ]
+        }
       }
+    ],
+    "relatedProjects": [
+      "orbit-website"
     ]
   },
   {
     "id": "orbit-revx-atf",
     "title": "Orbit RevX — ATF DEX III",
     "cat": "packaging",
-    "client": "Orbit Lubricants",
+    "client": "Orbit Lubricant Industries",
     "featured": false,
     "imgUrl": "/work/orbit-03.webp",
     "images": [
-      "/work/orbit-03.webp"
+      "/work/orbit-03.webp",
+      "/work/artwork-orbit-revx-1l-label.webp"
     ],
     "desc": "A red 1L transmission-fluid packaging presentation. Large RevX lettering and an ATF DEX III band establish the product hierarchy above a dark automotive gear-selector image.",
     "tech": [
@@ -880,30 +1225,47 @@
       {
         "title": "Design details",
         "text": "RevX 1L: red bottle, white brand panel, bold ATF band and a black automotive imagery field."
+      },
+      {
+        "title": "Packaging system",
+        "text": "The original 1L front-and-reverse label pair shows how the bold red identity balances with directions, caution text, a QR code and barcode on the information panel."
       }
     ],
     "gallery": [
       {
         "src": "/work/orbit-03.webp",
         "caption": "RevX 1L: red bottle, white brand panel, bold ATF band and a black automotive imagery field."
+      },
+      {
+        "src": "/work/artwork-orbit-revx-1l-label.webp",
+        "caption": "RevX ATF DEX III 1L: paired front and reverse labels with red identity bands, a gear-selector photograph and a compact technical information panel.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2261
       }
+    ],
+    "relatedProjects": [
+      "orbit-website"
     ]
   },
   {
     "id": "orbit-boostx-cng",
     "title": "Orbit BoostX — CNG Engine Oil",
     "cat": "packaging",
-    "client": "Orbit Lubricants",
+    "client": "Orbit Lubricant Industries",
     "featured": false,
     "imgUrl": "/work/orbit-08.webp",
     "images": [
-      "/work/orbit-08.webp"
+      "/work/orbit-08.webp",
+      "/work/artwork-orbit-boostx-2l-label.webp",
+      "/work/artwork-orbit-boostx-2l-carton.webp"
     ],
     "desc": "A 2L CNG engine-oil packaging design on a gold handled container. Orange BoostX lettering and a green-and-white label connect the product name, viscosity grade and vehicle illustration.",
     "tech": [
       "Packaging design",
       "Label design",
-      "Product presentation"
+      "Product presentation",
+      "Carton design"
     ],
     "caseStudy": [
       {
@@ -913,30 +1275,81 @@
       {
         "title": "Design details",
         "text": "BoostX 2L: gold container with orange title, 20W50 grade, green accents and a CNG vehicle illustration."
+      },
+      {
+        "title": "Packaging system",
+        "text": "The original 2L labels and six-bottle carton extend the green CNG identity across retail and shipping formats. Brand graphics occupy the broad face; specifications and product information sit on the narrow panel."
       }
     ],
     "gallery": [
       {
         "src": "/work/orbit-08.webp",
         "caption": "BoostX 2L: gold container with orange title, 20W50 grade, green accents and a CNG vehicle illustration."
+      },
+      {
+        "src": "/work/artwork-orbit-boostx-2l-label.webp",
+        "caption": "BoostX CNG 20W50 2L: green flowing graphics and CNG vehicle imagery on the front, paired with a structured reverse label.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2185
+      },
+      {
+        "src": "/work/artwork-orbit-boostx-2l-carton.webp",
+        "caption": "BoostX CNG · 2L shipping carton: complete supplied artwork for 2L × 6 pieces, with branding, technical side panel and closing flaps. Dimensions: 13.5 × 10.5 × 10.25 inches.",
+        "kind": "artwork",
+        "width": 1874,
+        "height": 1817,
+        "carton": {
+          "label": "BoostX CNG · 2L",
+          "size": [
+            13.5,
+            10.5,
+            10.25
+          ],
+          "quantity": "2L × 6 pieces",
+          "front": [
+            3.895411,
+            24.711062,
+            51.867663,
+            40.616401
+          ],
+          "side": [
+            55.763074,
+            24.711062,
+            40.341515,
+            40.616401
+          ],
+          "flap": [
+            3.895411,
+            3.90754,
+            51.867663,
+            20.803522
+          ]
+        }
       }
+    ],
+    "relatedProjects": [
+      "orbit-website"
     ]
   },
   {
     "id": "orbit-supreme",
     "title": "Orbit Supreme — Passenger Car Oil",
     "cat": "packaging",
-    "client": "Orbit Lubricants",
+    "client": "Orbit Lubricant Industries",
     "featured": false,
     "imgUrl": "/work/orbit-10.webp",
     "images": [
-      "/work/orbit-10.webp"
+      "/work/orbit-10.webp",
+      "/work/artwork-orbit-supreme-4l-label.webp",
+      "/work/artwork-orbit-supreme-4l-carton.webp"
     ],
     "desc": "A 4L passenger-car oil presentation on a white handled container. Blue Supreme typography, a prominent 20W50 grade and a car illustration form the key visual hierarchy.",
     "tech": [
       "Packaging design",
       "Label design",
-      "Product presentation"
+      "Product presentation",
+      "Carton design"
     ],
     "caseStudy": [
       {
@@ -946,30 +1359,82 @@
       {
         "title": "Design details",
         "text": "Supreme 4L: white container, blue-and-white label, large 20W50 grade and passenger-car imagery."
+      },
+      {
+        "title": "Packaging system",
+        "text": "The 4L label pair and four-bottle carton carry the blue passenger-car identity through the packaging system. The complete flat sheets show the relationship between the display face, technical panel and closing flaps."
       }
     ],
     "gallery": [
       {
         "src": "/work/orbit-10.webp",
         "caption": "Supreme 4L: white container, blue-and-white label, large 20W50 grade and passenger-car imagery."
+      },
+      {
+        "src": "/work/artwork-orbit-supreme-4l-label.webp",
+        "caption": "Supreme 20W50 4L: blue passenger-car graphics, a clear viscosity hierarchy and a matching reverse panel with application and benefit information.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2490
+      },
+      {
+        "src": "/work/artwork-orbit-supreme-4l-carton.webp",
+        "caption": "Supreme · 4L shipping carton: complete supplied artwork for 4L × 4 pieces, with branding, technical side panel and closing flaps. Dimensions: 17 × 8.5 × 12.75 inches.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 2921,
+        "carton": {
+          "label": "Supreme · 4L",
+          "size": [
+            17,
+            8.5,
+            12.75
+          ],
+          "quantity": "4L × 4 pieces",
+          "front": [
+            5.053711,
+            21.556566,
+            59.94873,
+            49.184274
+          ],
+          "side": [
+            65.002441,
+            21.556566,
+            29.956055,
+            49.184274
+          ],
+          "flap": [
+            5.053711,
+            5.12169,
+            59.94873,
+            16.434876
+          ]
+        }
       }
+    ],
+    "relatedProjects": [
+      "orbit-website"
     ]
   },
   {
     "id": "orbit-elite-hde",
-    "title": "Orbit Elite HDE — 15W40",
+    "title": "Orbit Elite HDE — 5L & 16L Packaging",
     "cat": "packaging",
-    "client": "Orbit Lubricants",
+    "client": "Orbit Lubricant Industries",
     "featured": false,
     "imgUrl": "/work/orbit-11.webp",
     "images": [
-      "/work/orbit-11.webp"
+      "/work/orbit-11.webp",
+      "/work/artwork-orbit-elite-16l-label.webp",
+      "/work/artwork-orbit-elite-5l-label.webp",
+      "/work/artwork-orbit-elite-5l-carton.webp"
     ],
-    "desc": "A heavy-duty engine-oil label on a gold 5L container. Red and gray Elite HDE typography sits above a 15W40 grade and a truck illustration.",
+    "desc": "A red-and-white heavy-duty lubricant identity developed across a 5L bottle, a 16L pail label and shipping packaging. Bold Elite HDE typography, a clear 15W40 grade and truck imagery give the family a consistent visual signature.",
     "tech": [
       "Packaging design",
       "Label design",
-      "Product presentation"
+      "Product presentation",
+      "Carton design"
     ],
     "caseStudy": [
       {
@@ -979,30 +1444,88 @@
       {
         "title": "Design details",
         "text": "Elite HDE 5L: gold bottle, red-and-gray name, prominent 15W40 grade and a white truck above a red graphic base."
+      },
+      {
+        "title": "Packaging system",
+        "text": "The supplied 5L label pair, 16L pail label and four-bottle shipping carton show how the red Elite HDE identity scales across formats. The 16L design is presented as original label artwork alongside the existing 5L bottle mockup."
       }
     ],
     "gallery": [
       {
         "src": "/work/orbit-11.webp",
         "caption": "Elite HDE 5L: gold bottle, red-and-gray name, prominent 15W40 grade and a white truck above a red graphic base."
+      },
+      {
+        "src": "/work/artwork-orbit-elite-16l-label.webp",
+        "caption": "Elite HDE 16L pail label: the red-and-white 15W40 identity expands into a taller layout, with truck imagery, benefit icons and production information.",
+        "kind": "artwork",
+        "width": 2260,
+        "height": 2855
+      },
+      {
+        "src": "/work/artwork-orbit-elite-5l-label.webp",
+        "caption": "Elite HDE 15W40 5L: front and reverse labels combine a red-and-silver wordmark with a truck-led lower graphic and organised technical details.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 1812
+      },
+      {
+        "src": "/work/artwork-orbit-elite-5l-carton.webp",
+        "caption": "Elite HDE · 5L shipping carton: complete supplied artwork for 5L × 4 pieces, with branding, technical side panel and closing flaps. Dimensions: 18 × 9 × 13.5 inches.",
+        "kind": "artwork",
+        "width": 2136,
+        "height": 1925,
+        "carton": {
+          "label": "Elite HDE · 5L",
+          "size": [
+            18,
+            9,
+            13.5
+          ],
+          "quantity": "5L × 4 pieces",
+          "front": [
+            4.494382,
+            21.350649,
+            60.720974,
+            50.493506
+          ],
+          "side": [
+            65.215356,
+            21.350649,
+            30.290262,
+            50.493506
+          ],
+          "flap": [
+            4.494382,
+            4.519481,
+            60.720974,
+            16.831169
+          ]
+        }
       }
+    ],
+    "relatedProjects": [
+      "orbit-website"
     ]
   },
   {
     "id": "orbit-optima-hde",
     "title": "Orbit Optima HDE — 20W50",
     "cat": "packaging",
-    "client": "Orbit Lubricants",
+    "client": "Orbit Lubricant Industries",
     "featured": false,
     "imgUrl": "/work/orbit-14.webp",
     "images": [
-      "/work/orbit-14.webp"
+      "/work/orbit-14.webp",
+      "/work/artwork-orbit-optima-5l-label.webp",
+      "/work/artwork-orbit-optima-5l-carton.webp"
     ],
     "desc": "A gold 5L heavy-duty engine-oil packaging presentation for Optima HDE. The design pairs a clear 20W50 grade with red accents, a white brand field and a truck illustration.",
     "tech": [
       "Packaging design",
       "Label design",
-      "Product presentation"
+      "Product presentation",
+      "Carton design"
     ],
     "caseStudy": [
       {
@@ -1012,13 +1535,61 @@
       {
         "title": "Design details",
         "text": "Optima HDE 5L: gold handled container with a white header, red lower panel and truck-led visual composition."
+      },
+      {
+        "title": "Packaging system",
+        "text": "The 5L label pair and four-bottle carton share the red motion graphic, truck imagery and 20W50 hierarchy. Original artwork is grouped with the bottle presentation to reveal the complete packaging system."
       }
     ],
     "gallery": [
       {
         "src": "/work/orbit-14.webp",
         "caption": "Optima HDE 5L: gold handled container with a white header, red lower panel and truck-led visual composition."
+      },
+      {
+        "src": "/work/artwork-orbit-optima-5l-label.webp",
+        "caption": "Optima HDE 20W50 5L: the original front and reverse artwork uses a red motion graphic, truck imagery and a white technical information field.",
+        "kind": "artwork",
+        "width": 3200,
+        "height": 1812
+      },
+      {
+        "src": "/work/artwork-orbit-optima-5l-carton.webp",
+        "caption": "Optima HDE · 5L shipping carton: complete supplied artwork for 5L × 4 pieces, with branding, technical side panel and closing flaps. Dimensions: 18 × 9 × 13.5 inches.",
+        "kind": "artwork",
+        "width": 2136,
+        "height": 1925,
+        "carton": {
+          "label": "Optima HDE · 5L",
+          "size": [
+            18,
+            9,
+            13.5
+          ],
+          "quantity": "5L × 4 pieces",
+          "front": [
+            4.494382,
+            21.350649,
+            60.720974,
+            50.493506
+          ],
+          "side": [
+            65.215356,
+            21.350649,
+            30.290262,
+            50.493506
+          ],
+          "flap": [
+            4.494382,
+            4.519481,
+            60.720974,
+            16.831169
+          ]
+        }
       }
+    ],
+    "relatedProjects": [
+      "orbit-website"
     ]
   },
   {

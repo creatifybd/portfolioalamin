@@ -1,0 +1,218 @@
+[
+  {
+    "source": "16L-Pail.jpg",
+    "sourceSize": [
+      2260,
+      2855
+    ],
+    "output": "/work/artwork-orbit-elite-16l-label.webp",
+    "project": "orbit-elite-hde"
+  },
+  {
+    "source": "1L---ATF.jpg",
+    "sourceSize": [
+      4210,
+      2975
+    ],
+    "output": "/work/artwork-orbit-revx-1l-label.webp",
+    "project": "orbit-revx-atf"
+  },
+  {
+    "source": "1L--Xpower.jpg",
+    "sourceSize": [
+      5930,
+      5080
+    ],
+    "output": "/work/artwork-orbit-xpower-1l-labels.webp",
+    "project": "orbit-xpower-series"
+  },
+  {
+    "source": "2L---BOOSTX-CNG.jpg",
+    "sourceSize": [
+      4210,
+      2875
+    ],
+    "output": "/work/artwork-orbit-boostx-2l-label.webp",
+    "project": "orbit-boostx-cng"
+  },
+  {
+    "source": "4L--SUPREME.jpg",
+    "sourceSize": [
+      5410,
+      4210
+    ],
+    "output": "/work/artwork-orbit-supreme-4l-label.webp",
+    "project": "orbit-supreme"
+  },
+  {
+    "source": "5L---NOVA-HD40.jpg1.jpg",
+    "sourceSize": [
+      5850,
+      3705
+    ],
+    "output": "/work/artwork-orbit-nova-hd40-5l-label.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "5L---NOVA-HD40.jpg2.jpg",
+    "sourceSize": [
+      5850,
+      3705
+    ],
+    "output": "/work/artwork-orbit-nova-hd50-5l-label.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "5L---NOVA-HD40.jpg3.jpg",
+    "sourceSize": [
+      5850,
+      3705
+    ],
+    "output": "/work/artwork-orbit-nova-hd50-3l-label.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "ELITE-HDE-5L.jpg1.jpg",
+    "sourceSize": [
+      6155,
+      3485
+    ],
+    "output": "/work/artwork-orbit-optima-5l-label.webp",
+    "project": "orbit-optima-hde"
+  },
+  {
+    "source": "ELITE-HDE-5L.jpg2.jpg",
+    "sourceSize": [
+      6155,
+      3485
+    ],
+    "output": "/work/artwork-orbit-elite-5l-label.webp",
+    "project": "orbit-elite-hde"
+  },
+  {
+    "source": "NOVA-HD40.jpg1.jpg",
+    "sourceSize": [
+      4210,
+      2975
+    ],
+    "output": "/work/artwork-orbit-nova-hd40-1l-label.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "NOVA-HD40.jpg2.jpg",
+    "sourceSize": [
+      4210,
+      2975
+    ],
+    "output": "/work/artwork-orbit-nova-hd50-1l-label.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "Orbit-1L-Carton-Die-Mark.jpg1.jpg",
+    "sourceSize": [
+      1980,
+      1697
+    ],
+    "output": "/work/artwork-orbit-xpower-10w30-carton.webp",
+    "project": "orbit-xpower-series"
+  },
+  {
+    "source": "Orbit-1L-Carton-Die-Mark.jpg2.jpg",
+    "sourceSize": [
+      1980,
+      1697
+    ],
+    "output": "/work/artwork-orbit-xpower-10w40-carton.webp",
+    "project": "orbit-xpower-series"
+  },
+  {
+    "source": "Orbit-1L-Carton-Die-Mark.jpg3.jpg",
+    "sourceSize": [
+      1980,
+      1697
+    ],
+    "output": "/work/artwork-orbit-xpower-20w40-carton.webp",
+    "project": "orbit-xpower-series"
+  },
+  {
+    "source": "Orbit-1L-Carton-Die-Mark.jpg4.jpg",
+    "sourceSize": [
+      1980,
+      1697
+    ],
+    "output": "/work/artwork-orbit-xpower-20w50-carton.webp",
+    "project": "orbit-xpower-series"
+  },
+  {
+    "source": "Orbit-1L-Carton-Die-Mark.jpg5.jpg",
+    "sourceSize": [
+      1980,
+      1697
+    ],
+    "output": "/work/artwork-orbit-nova-hd50-1l-carton.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "Orbit-2L-Carton-Die-Mark.jpg",
+    "sourceSize": [
+      1874,
+      1817
+    ],
+    "output": "/work/artwork-orbit-boostx-2l-carton.webp",
+    "project": "orbit-boostx-cng"
+  },
+  {
+    "source": "Orbit-3L-Carton-Die-Mark.jpg",
+    "sourceSize": [
+      2238,
+      2036
+    ],
+    "output": "/work/artwork-orbit-nova-hd50-3l-carton.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "Orbit-4L-Carton-Die-Mark.jpg",
+    "sourceSize": [
+      8192,
+      7478
+    ],
+    "output": "/work/artwork-orbit-supreme-4l-carton.webp",
+    "project": "orbit-supreme"
+  },
+  {
+    "source": "Orbit-5L-Carton-Die-Mark.jpg1.jpg",
+    "sourceSize": [
+      2136,
+      1925
+    ],
+    "output": "/work/artwork-orbit-optima-5l-carton.webp",
+    "project": "orbit-optima-hde"
+  },
+  {
+    "source": "Orbit-5L-Carton-Die-Mark.jpg2.jpg",
+    "sourceSize": [
+      2136,
+      1925
+    ],
+    "output": "/work/artwork-orbit-elite-5l-carton.webp",
+    "project": "orbit-elite-hde"
+  },
+  {
+    "source": "Orbit-5L-Carton-Die-Mark.jpg3.jpg",
+    "sourceSize": [
+      2136,
+      1925
+    ],
+    "output": "/work/artwork-orbit-nova-hd50-5l-carton.webp",
+    "project": "orbit-nova-series"
+  },
+  {
+    "source": "Orbit-5L-Carton-Die-Mark.jpg4.jpg",
+    "sourceSize": [
+      2136,
+      1925
+    ],
+    "output": "/work/artwork-orbit-nova-hd40-5l-carton.webp",
+    "project": "orbit-nova-series"
+  }
+]

@@ -2220,3 +2220,64 @@ h1,h2 { letter-spacing:-.055em; font-weight:500; }
 
 .related-packaging { display:flex; flex-wrap:wrap; gap:20px; align-items:center; border-top:1px solid var(--line); padding:32px 0; }
 .related-packaging .button { white-space:normal; max-width:100%; }
+
+/* Orbit carton studies display original artwork through CSS face viewports. */
+.carton-variants, .carton-angles { display:flex; flex-wrap:wrap; gap:8px; }
+.carton-variants { margin:0 0 22px; }
+.carton-variants button, .carton-angles button, .carton-open {
+  border:1px solid var(--line); border-radius:100px; padding:12px 18px;
+  min-height:44px; font:inherit; font-size:12px; background:transparent;
+  color:var(--ink); transition:background .2s, color .2s;
+}
+.carton-variants button[aria-pressed="true"], .carton-angles button[aria-pressed="true"] { background:var(--ink); border-color:var(--ink); color:#fff; }
+.carton-board {
+  container-type:inline-size; position:relative; isolation:isolate; display:grid;
+  place-items:center; height:clamp(500px,60vw,680px); overflow:hidden; border-radius:16px;
+  background:radial-gradient(ellipse at 35% 28%,#fff 0%,#f4f6f8 40%,#dce3eb 100%);
+}
+.carton-board::before {
+  content:""; position:absolute; width:62%; height:17%; top:70%; left:19%;
+  background:radial-gradient(ellipse,#28364738,transparent 68%); filter:blur(14px);
+  transform:rotate(-6deg); z-index:-1;
+}
+.carton-board-label { position:absolute; left:28px; top:26px; color:#5b6673; font-size:10px; }
+.carton-board-note { position:absolute; bottom:24px; font-size:11px; color:#5b6673; text-align:center; padding:0 20px; }
+.carton-scene {
+  --box-w:min(52cqw,440px);
+  --box-h:calc(var(--box-w) * var(--carton-h));
+  --box-d:calc(var(--box-w) * var(--carton-d));
+  width:var(--box-w); height:var(--box-h); perspective:1800px;
+}
+.carton-object { position:relative; width:100%; height:100%; transform-style:preserve-3d; transform:rotateX(-16deg) rotateY(-28deg); transition:transform .65s cubic-bezier(.2,.7,.2,1); }
+.carton-board[data-view="front"] .carton-object { transform:rotateX(0deg) rotateY(0deg); }
+.carton-board[data-view="side"] .carton-object { transform:rotateX(0deg) rotateY(-90deg); }
+.carton-face { position:absolute; left:50%; top:50%; background:#fff; backface-visibility:hidden; overflow:hidden; outline:1px solid #aab2bc40; }
+.carton-front { width:var(--box-w); height:var(--box-h); transform:translate(-50%,-50%) translateZ(calc(var(--box-d) / 2)); }
+.carton-side { width:var(--box-d); height:var(--box-h); transform:translate(-50%,-50%) rotateY(90deg) translateZ(calc(var(--box-w) / 2)); }
+.carton-top { width:var(--box-w); height:var(--box-d); transform:translate(-50%,-50%) rotateX(90deg) translateZ(calc(var(--box-h) / 2)); }
+.carton-print { display:block; position:absolute; inset:0; background-repeat:no-repeat; }
+.carton-side::after, .carton-top::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#27394d20,#27394d0a); pointer-events:none; }
+.carton-top::after { background:linear-gradient(0deg,#ffffff08,#ffffff38); }
+.carton-flap { position:absolute; left:0; width:100%; height:50%; overflow:hidden; }
+.carton-flap-back { top:0; transform:rotate(180deg); }
+.carton-flap-front { bottom:0; border-top:1px solid #3c3e4530; }
+.carton-toolbar { display:flex; flex-wrap:wrap; justify-content:space-between; gap:16px; margin:22px 0 30px; }
+.carton-open:hover { background:#e9edde; }
+.carton-specs { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:24px; padding-top:24px; border-top:1px solid var(--line); align-items:start; }
+.carton-specs h3 { font-size:clamp(22px,2.4vw,32px); font-weight:500; letter-spacing:-.04em; }
+.carton-specs p { font-size:14px; }
+.carton-specs p span { display:block; margin-bottom:6px; font-size:11px; color:var(--muted); }
+@media(max-width:760px) {
+  .carton-board { height:clamp(300px,90vw,560px); border-radius:12px; }
+  .carton-board-label { left:18px; top:20px; font-size:9px; }
+  .carton-board-note { bottom:20px; font-size:10px; }
+  .carton-scene { --box-w:54cqw; }
+  .carton-variants button, .carton-angles button, .carton-open { padding:11px 14px; font-size:11px; }
+  .carton-toolbar { gap:12px; }
+  .carton-specs { grid-template-columns:1fr 1fr; gap:20px; }
+  .carton-specs h3 { grid-column:1/-1; }
+  .carton-specs p { font-size:12px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .carton-object, .carton-variants button, .carton-angles button, .carton-open { transition:none; }
+}

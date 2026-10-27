@@ -72,7 +72,7 @@ test("curated packaging assets are complete and remain available with remote con
     curated
       .filter((p) => p.cat === "packaging")
       .reduce((sum, p) => sum + p.images.length, 0),
-    70,
+    94,
   );
   for (const p of curated) {
     assert.equal(p.gallery.length, p.images.length);
@@ -87,7 +87,28 @@ test("curated packaging assets are complete and remain available with remote con
   assert.equal(combined.length, 23);
   assert.equal(visibleProjects(combined).length, 22);
   assert.equal(mergePortfolio(curated, projects).length, 40);
-  assert.equal(curated.flatMap(p => p.gallery).filter(g => g.kind === "artwork").length, 27);
+  assert.equal(curated.flatMap(p => p.gallery).filter(g => g.kind === "artwork").length, 51);
+});
+
+test("Orbit source coverage and carton panel geometry stay valid", () => {
+  const curated = JSON.parse(readFileSync(new URL("../src/featured-projects.json", import.meta.url)));
+  const manifest = JSON.parse(readFileSync(new URL("../docs/orbit-artwork-manifest.json", import.meta.url)));
+  assert.equal(manifest.length, 24);
+  assert.equal(new Set(manifest.map(item => item.source)).size, 24);
+  for (const item of manifest) {
+    const project = curated.find(p => p.id === item.project);
+    assert.ok(project?.gallery.some(g => g.src === item.output && g.kind === "artwork"));
+  }
+  const cartons = curated.flatMap(p => p.gallery).filter(g => g.carton);
+  assert.equal(cartons.length, 12);
+  for (const {carton, width, height} of cartons) {
+    for (const key of ["front", "side", "flap"]) {
+      const [x,y,w,h] = carton[key];
+      assert.ok(x >= 0 && y >= 0 && w > 0 && h > 0 && x+w <= 100 && y+h <= 100);
+    }
+    const ratio = carton.front[2] * width / (carton.front[3] * height);
+    assert.ok(Math.abs(ratio - carton.size[0] / carton.size[2]) < .01, carton.label);
+  }
 });
 
 test("legacy profile migration corrects identity and preserves subsequent admin changes", async () => {

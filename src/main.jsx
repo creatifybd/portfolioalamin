@@ -2,6 +2,7 @@ import { f as getReact, d as getDOM } from "./vendor.js";
 import profile from "./profile.json";
 import savedProjects from "./projects.json";
 import curatedProjects from "./featured-projects.json";
+import CartonStudy from "./CartonStudy.jsx";
 import { mergePortfolio } from "./model.js";
 import { readConfig, sendMessage } from "./api.js";
 import {
@@ -793,6 +794,7 @@ function Project({ project, projects, loading, go }) {
     dialog = useRef(null),
     backFocus = useRef(null);
   const imgs = project ? imagesFor(project) : [];
+  const cartons = project?.gallery?.filter(item => item.carton) || [];
   const [zoomed, setZoomed] = useState(false);
   useEffect(() => setZoomed(false), [lightbox]);
   useEffect(() => {
@@ -894,20 +896,23 @@ function Project({ project, projects, loading, go }) {
       {imgs.some(img => project.gallery?.find(g => g.src === img)?.kind === "artwork") && (
         <nav className="project-chapters" aria-label="Project presentation chapters">
           <a href="#mockups">01 / Mockup presentation</a>
-          <a href="#artwork">02 / Original artwork</a>
+          {cartons.length > 0 && <a href="#cartons">02 / Carton studies</a>}
+          <a href="#artwork">{cartons.length ? "03" : "02"} / Original artwork</a>
         </nav>
       )}
       {[
         {id: "mockups", title: "The finished form", subtitle: "Mockup presentation", flat: false},
+        {id: "cartons"},
         {id: "artwork", title: "Behind the packaging", subtitle: "Original artwork", flat: true}
       ].map(group => {
+        if (group.id === "cartons") return cartons.length > 0 ? <CartonStudy key={project.id} items={cartons} onOpen={src => setLightbox(imgs.indexOf(src))} /> : null;
         const entries = imgs.map((img, index) => ({img, index, meta: project.gallery?.find(g => g.src === img)}))
           .filter(item => (item.meta?.kind === "artwork") === group.flat);
         if (!entries.length) return null;
         const hasArtwork = imgs.some(img => project.gallery?.find(g => g.src === img)?.kind === "artwork");
         return <section id={group.id} className="presentation-chapter" key={group.id} aria-label={group.subtitle}>
           {hasArtwork && <header className="chapter-heading">
-            <div><span className="eyebrow">{group.flat ? "02" : "01"} / {group.subtitle}</span><h2>{group.title}</h2></div>
+            <div><span className="eyebrow">{group.flat ? (cartons.length ? "03" : "02") : "01"} / {group.subtitle}</span><h2>{group.title}</h2></div>
             <p>{group.flat ? "Explore the supplied labels, reverse panels and dielines. Open an image and zoom in to inspect the details." : "See the packaging in context, then explore the original design artwork below."}</p>
           </header>}
           <div className={group.flat ? "project-gallery artwork-gallery" : project.cat === "packaging" ? "project-gallery packaging-gallery" : "project-gallery"}>
