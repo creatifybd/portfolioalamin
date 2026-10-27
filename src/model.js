@@ -1,4 +1,5 @@
 export const categories = {
+  advertising: "Advertising campaigns",
   branding: "Brand identity",
   graphic: "Graphic design",
   web: "Web design",

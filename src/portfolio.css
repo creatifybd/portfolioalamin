@@ -2281,3 +2281,10 @@ h1,h2 { letter-spacing:-.055em; font-weight:500; }
 @media(prefers-reduced-motion:reduce) {
   .carton-object, .carton-variants button, .carton-angles button, .carton-open { transition:none; }
 }
+
+/* Campaign creatives retain their full composition and original proportions. */
+.project-card.campaign-card:nth-child(n) .project-art > img { object-fit:contain; width:100%; height:100%; }
+.campaign-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:48px 28px; }
+.campaign-gallery figure > button.artwork-surface { padding:0; background:transparent; border-radius:12px; overflow:hidden; }
+.campaign-gallery img { display:block; width:100%; max-height:none; height:auto; }
+@media(max-width:760px) { .campaign-gallery { grid-template-columns:1fr; gap:32px; } }

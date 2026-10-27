@@ -354,7 +354,7 @@ function Work({ projects, go, loadState }) {
           Selected work<span className="blue">.</span>
         </h2>
         <p>
-          Brand identities, packaging and websites.
+          Brand identities, packaging, advertising and websites.
           <br />
           Explore the projects and the thinking behind them.
         </p>
@@ -415,7 +415,7 @@ function Work({ projects, go, loadState }) {
       <div className="project-grid">
         {ordered.slice(0, limit).map((p, i) => (
           <a
-            className={`project-card card-${i % 4} ${p.cat === "web" ? "web-card" : ""}`}
+            className={`project-card card-${i % 4} ${p.cat === "web" ? "web-card" : p.cat === "advertising" ? "campaign-card" : ""}`}
             href={`/project/${encodeURIComponent(p.id)}`}
             key={p.id}
             onClick={(e) => {
@@ -915,7 +915,7 @@ function Project({ project, projects, loading, go }) {
             <div><span className="eyebrow">{group.flat ? (cartons.length ? "03" : "02") : "01"} / {group.subtitle}</span><h2>{group.title}</h2></div>
             <p>{group.flat ? "Explore the supplied labels, reverse panels and dielines. Open an image and zoom in to inspect the details." : "See the packaging in context, then explore the original design artwork below."}</p>
           </header>}
-          <div className={group.flat ? "project-gallery artwork-gallery" : project.cat === "packaging" ? "project-gallery packaging-gallery" : "project-gallery"}>
+          <div className={group.flat ? "project-gallery artwork-gallery" : project.cat === "packaging" ? "project-gallery packaging-gallery" : project.cat === "advertising" ? "project-gallery campaign-gallery" : "project-gallery"}>
             {entries.map(({img, index, meta}) => <figure key={img} data-tone={productTone(project, img)} className={group.flat && meta?.width > meta?.height ? "artwork-wide" : ""}>
               <button className={!group.flat && project.cat === "packaging" ? "product-stage" : "artwork-surface"}
                 onClick={() => setLightbox(index)} aria-label={`View image ${index + 1} full screen`}>
@@ -954,8 +954,8 @@ function Project({ project, projects, loading, go }) {
           Artwork for this project is being updated.
         </p>
       )}
-      {project.relatedProjects?.length > 0 && <aside className="related-packaging" aria-label="Related packaging">
-        <span className="eyebrow">Explore the packaging system</span>
+      {project.relatedProjects?.length > 0 && <aside className="related-packaging" aria-label="Related projects">
+        <span className="eyebrow">Explore related projects</span>
         {project.relatedProjects.map(id => { const item = projects.find(p => p.id === id); return item ? <a key={id} className="button" href={`/project/${id}`} onClick={e => {e.preventDefault();go(`/project/${id}`);}}>{item.title} <Arrow diagonal /></a> : null; })}
       </aside>}
       {next && next.id !== project.id && (

@@ -105,6 +105,66 @@
     ]
   },
   {
+    "id": "nolive-advertising-campaign",
+    "title": "n’Olive — Hand Wash Advertising Campaign",
+    "client": "Joytun Chemical Industries OPC",
+    "cat": "advertising",
+    "featured": true,
+    "imgUrl": "/work/campaign-nolive-lavender.webp",
+    "images": [
+      "/work/campaign-nolive-lavender.webp",
+      "/work/campaign-nolive-ocean-blue.webp",
+      "/work/campaign-nolive-apple-green.webp",
+      "/work/campaign-nolive-gold-fresh.webp"
+    ],
+    "desc": "A coordinated four-variant advertising series for n’Olive hand wash. Lavender, Ocean Blue, Apple Green and Gold Fresh each receive a distinct colour atmosphere within a shared product-led composition.",
+    "tech": [
+      "Advertising design",
+      "Product visualisation",
+      "Campaign art direction"
+    ],
+    "caseStudy": [
+      {
+        "title": "Creative direction",
+        "text": "Marble pedestals, translucent glass, water droplets and softly filtered light create a polished studio setting. Large serif typography balances the product image, while generous spacing keeps the composition readable."
+      },
+      {
+        "title": "A connected campaign",
+        "text": "A consistent bottle placement, headline hierarchy and three-icon row tie the four creatives together. Floral, aquatic, apple and citrus cues give each variant its own visual character."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/work/campaign-nolive-lavender.webp",
+        "caption": "Lavender — Violet typography, lavender sprigs and soft floral light frame the purple pump bottle on a marble pedestal.",
+        "width": 1122,
+        "height": 1402
+      },
+      {
+        "src": "/work/campaign-nolive-ocean-blue.webp",
+        "caption": "Ocean Blue — Cool blue typography, translucent glass and suspended water droplets create an airy setting around the blue bottle.",
+        "width": 1122,
+        "height": 1402
+      },
+      {
+        "src": "/work/campaign-nolive-apple-green.webp",
+        "caption": "Apple Green — Fresh green apples, foliage and dappled light extend the bottle’s green palette into the surrounding scene.",
+        "width": 1122,
+        "height": 1402
+      },
+      {
+        "src": "/work/campaign-nolive-gold-fresh.webp",
+        "caption": "Gold Fresh — Warm golden light, lemon slices and reflective glass echo the yellow bottle and citrus-inspired label.",
+        "width": 1122,
+        "height": 1402
+      }
+    ],
+    "relatedProjects": [
+      "nolive-handwash",
+      "joytun-website"
+    ]
+  },
+  {
     "id": "aro-detergent",
     "title": "Aro — Fresh Green Detergent",
     "cat": "packaging",
@@ -375,7 +435,8 @@
       }
     ],
     "relatedProjects": [
-      "nolive-shipping-carton"
+      "nolive-shipping-carton",
+      "nolive-advertising-campaign"
     ]
   },
   {

@@ -67,7 +67,7 @@ test("curated packaging assets are complete and remain available with remote con
   const curated = JSON.parse(
     readFileSync(new URL("../src/featured-projects.json", import.meta.url)),
   );
-  assert.equal(curated.length, 23);
+  assert.equal(curated.length, 24);
   assert.equal(
     curated
       .filter((p) => p.cat === "packaging")
@@ -84,9 +84,9 @@ test("curated packaging assets are complete and remain available with remote con
     }
   }
   const combined = mergePortfolio(curated, [{ ...curated[0], hidden: true }]);
-  assert.equal(combined.length, 23);
-  assert.equal(visibleProjects(combined).length, 22);
-  assert.equal(mergePortfolio(curated, projects).length, 40);
+  assert.equal(combined.length, 24);
+  assert.equal(visibleProjects(combined).length, 23);
+  assert.equal(mergePortfolio(curated, projects).length, 41);
   assert.equal(curated.flatMap(p => p.gallery).filter(g => g.kind === "artwork").length, 51);
 });
 
